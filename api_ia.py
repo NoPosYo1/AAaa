@@ -52,17 +52,24 @@ class ApiIa:
             {"role": "system", "content": self.PROMPT_IA_RESUMEN.strip()},
             {"role": "user", "content": text_document.strip()}
         ]
-        response = self.client_groq.chat.completions.create(
-            model=model,
-            messages=messages,
-            temperature=temperature,
-            max_tokens=max_completion_tokens,
-            stream=False,
-            # Stream define la forma en que la IA responde, si lo ponemos en TRUE, entregara caracter por caracter tipo "chat", como no es lo que buscamos, sino una respuesta completa, queda en false
-        )
+        try
+            
+            response = self.client_groq.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_completion_tokens,
+                stream=False,
+                # Stream define la forma en que la IA responde, si lo ponemos en TRUE, entregara caracter por caracter tipo "chat", como no es lo que buscamos, sino una respuesta completa, queda en false
+            )
 
-        # Extrae el texto final y lo devuelve
-        return response.choices[0].message.content or ""
+            # Extrae el texto final y lo devuelve
+            return response.choices[0].message.content or ""
+        except Exception as e:
+            error_msg = str(e)
+            if"Limit" in error_msg or "413" in error_msg:
+                return "El documento es demaciado grande para la version gratuita de IA. \n Se intento procesar pero se excedio el limite"
+            return f"Error al consultar a la IA: {error_msg}"
 
     # Objetivo de la funcion: Guardar el resumen generado de la ia en base a un documento, para ahorrar tokens, y tener consistencia
     def save_resume_ia(self,resume_generated, id_documento):
