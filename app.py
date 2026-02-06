@@ -3497,6 +3497,7 @@ def render_pantalla_8_ia():
     options = dff.to_dict("records")
     labels = [_label(r) for r in options]
     sel = st.selectbox("Selecciona documento", labels, index=0)
+    
 
     row = options[labels.index(sel)]
     docid = str(row.get("DocID", ""))
@@ -3532,7 +3533,12 @@ def render_pantalla_8_ia():
     else:
         st.warning("Tipo de archivo no soportado. Esta demo analiza DOCX y PDF (con OCR).")
         return
-
+    
+    MAX_CHARS = 18000  # Límite seguro para la API gratuita
+    if len(text) > MAX_CHARS:
+        st.warning(f"⚠️ El documento es muy largo ({len(text)} caracteres). Se recortó a los primeros {MAX_CHARS} para analizarlo con la versión gratuita.")
+        text = text[:MAX_CHARS] + "\n... [TEXTO CORTADO POR LÍMITE DE TAMAÑO]"
+    
     # Detección de idioma y alerta si no es español
     lang = _detect_language(text)
     if lang != "es":
