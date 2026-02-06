@@ -40,13 +40,12 @@ try:
     
     if api_key:
         client_groq = Groq(api_key=api_key)
+        API_IA = ApiIa(client_groq)
         HAS_GROQ = True
     else:
-        API_IA = ApiIa(None)
         HAS_GROQ = False
 except Exception:
     # Sino tiene la libreria se inicializa de todos modos como falso en obtencion y nulo en valor
-    API_IA = ApiIa(None)
     HAS_GROQ = False
 
 # ======================== FIN IMPORTS ===========================================
