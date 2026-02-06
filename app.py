@@ -21,6 +21,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from pathlib import Path
+from groq import Groq
 from api_ia import ApiIa
 
 # IMPORT OPENPYXL OPCIONAL

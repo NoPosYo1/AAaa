@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+from groq import Groq
 class ApiIa:
     # Generar funcion para preguntar al modelo de IA sobre el contenido de un texto
     PROMPT_IA_RESUMEN = '''
@@ -28,7 +29,7 @@ class ApiIa:
         self.client_groq = client_groq
 
     def generate_ia_resume(self,text_document: str,
-                            model="openai/gpt-oss-120b",
+                            model="meta-llama/llama-prompt-guard-2-86m",
                             temperature=0.3,
                             max_completion_tokens=1600,
                             ):
