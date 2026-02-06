@@ -3463,7 +3463,7 @@ def _simple_audit_summarize(text: str) -> dict:
     return {"summary": summary, "requirements": req_lines, "checklist": checklist}
 
 def render_pantalla_8_ia():
-    verificar_groq() #se uso para verificar si funciona el groq y mostrar el problema
+    #verificar_groq() #se uso para verificar si funciona el groq y mostrar el problema
     st.subheader("🤖 IA sobre EETT (modo auditor)")
     # --- MODIFICADO: caption ampliado para mencionar PDF/OCR ---
     st.caption("Pantalla 8 · Selecciona EETT de Biblioteca · Lee WORD (.docx) o PDF (.pdf) y genera resumen + checklist QA/QC (sin inventar).")
