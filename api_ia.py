@@ -35,7 +35,7 @@ class ApiIa:
         self.client_groq = client_groq
 
     def generate_ia_resume(self,text_document: str,
-                            model="llama-3.3-70b-versatile",
+                            model="moonshotai/kimi-k2-instruct-0905",
                             temperature=0.3,
                             max_completion_tokens=1600,
                             ):
