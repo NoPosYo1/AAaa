@@ -53,6 +53,38 @@ except Exception:
 
 
 # ======================== FIN IMPORTS ===========================================
+# --- 🕵️ BLOQUE DE DIAGNÓSTICO (BORRAR AL FINAL) ---
+import streamlit as st
+try:
+    st.markdown("### 🕵️ Diagnóstico de Conexión")
+    
+    # 1. Probar si la librería existe
+    import groq
+    st.success("1. ✅ Librería `groq` instalada correctamente.")
+    
+    # 2. Probar si lee los secretos
+    if "groq_api_key" in st.secrets:
+        clave = st.secrets["groq_api_key"]
+        # Mostrar solo los primeros 4 caracteres para verificar
+        st.success(f"2. ✅ Secreto encontrado. Empieza con: `{clave[:4]}...`")
+        
+        # 3. Probar conexión real
+        try:
+            client_test = groq.Groq(api_key=clave)
+            st.success("3. ✅ Cliente Groq inicializado sin errores.")
+        except Exception as e:
+            st.error(f"3. ❌ Error al iniciar cliente Groq: {e}")
+            
+    else:
+        st.error(f"2. ❌ NO se encuentra la clave 'groq_api_key' en los secretos. Claves disponibles: {list(st.secrets.keys())}")
+        
+except ImportError:
+    st.error("1. ❌ La librería `groq` NO está instalada (revisa requirements.txt).")
+except Exception as e:
+    st.error(f"❌ Error general en diagnóstico: {e}")
+
+st.divider()
+# ----------------------------------------------------
 
 # ======================== INICIO DE UTILIDADES  =================================
 def _alt_csv_path(path: str) -> str:
