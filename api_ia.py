@@ -47,10 +47,12 @@ class ApiIa:
         max_completion_tokens= Determina cuantos caracteres como máximo generará la respuesta, para ahorrar en cuota de uso de la API se usan 1600 que equivalen a unos 4800 caracteres aprox ,
         '''
 
+        texto_seguro = text_document.strip()[:18000]
+
         # El rol indica un contexto para la IA, de donde viene cada instruccion, el prompt es sistematico, y el mensaje variable
         messages = [
             {"role": "system", "content": self.PROMPT_IA_RESUMEN.strip()},
-            {"role": "user", "content": text_document.strip()}
+            {"role": "user", "content": texto_seguro}
         ]
         try:
             
