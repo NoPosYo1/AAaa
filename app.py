@@ -31,24 +31,43 @@ except Exception:
     HAS_OPENPYXL = False
 
 # IMPORT GROQ SEGURO PARA PANTALLA 8, ANTES DE USO
+# ==============================================================================
+# BLOQUE DE CONFIGURACIÓN DE IA (Reemplaza tu bloque actual con esto)
+# ==============================================================================
 API_IA = None
 HAS_GROQ = False
-try:
-    from groq import Groq
-    # Marcamos variable de obtencion e inicializamos groq con la API key guardada en secrets.toml para pantalla 8
-    api_key=st.secrets("groq_api_key")
-    
-    if api_key:
-        client_groq = Groq(api_key=api_key)
-        HAS_GROQ = True
-    else:
-        API_IA = ApiIa(None)
-        HAS_GROQ = False
-except Exception:
-    # Sino tiene la libreria se inicializa de todos modos como falso en obtencion y nulo en valor
-    API_IA = ApiIa(None)
-    HAS_GROQ = False
 
+try:
+    # 1. Intentamos importar
+    from groq import Groq
+    
+    # 2. Buscamos la clave (soporta mayúsculas o minúsculas)
+    api_key = st.secrets.get("groq_api_key")
+    
+    if not api_key:
+        # Si no está, avisamos pero no rompemos
+        st.warning("⚠️ No encontré 'groq_api_key' en los secrets.")
+        HAS_GROQ = False
+    else:
+        # 3. Inicializamos cliente
+        client_groq = Groq(api_key=api_key)
+        
+        # 4. Intentamos cargar tu clase ApiIa
+        # IMPORTANTE: Verificamos si ApiIa fue importada arriba
+        if 'ApiIa' not in globals():
+            st.error("❌ ERROR CRÍTICO: Python no conoce la clase 'ApiIa'. Revisa los imports al inicio.")
+            HAS_GROQ = False
+        else:
+            API_IA = ApiIa(client_groq)
+            HAS_GROQ = True # ¡Éxito!
+
+except Exception as e:
+    # AQUÍ ESTÁ EL TRUCO: Mostramos el error real en lugar de ocultarlo
+    HAS_GROQ = False
+    st.error(f"❌ OCURRIÓ UN ERROR INTERNO AL CARGAR LA IA: {e}")
+    st.caption("Por favor, envía captura de este error rojo.")
+
+# ==============================================================================
 
 
 
