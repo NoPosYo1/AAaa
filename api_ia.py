@@ -52,7 +52,7 @@ class ApiIa:
             {"role": "system", "content": self.PROMPT_IA_RESUMEN.strip()},
             {"role": "user", "content": text_document.strip()}
         ]
-        try
+        try:
             
             response = self.client_groq.chat.completions.create(
                 model=model,
