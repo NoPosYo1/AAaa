@@ -31,10 +31,11 @@ except Exception:
     HAS_OPENPYXL = False
 
 # IMPORT GROQ SEGURO PARA PANTALLA 8, ANTES DE USO
-API_IA = None
-HAS_GROQ = False
+
 try:
     from groq import Groq
+    API_IA = None
+    HAS_GROQ = False
     # Marcamos variable de obtencion e inicializamos groq con la API key guardada en secrets.toml para pantalla 8
     api_key=st.secrets("groq_api_key")
     
