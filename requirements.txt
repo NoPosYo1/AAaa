@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+openpyxl
+matplotlib
+groq
+pytesseract
+pdf2image
+python-docx
+pymupdf
+langdetect

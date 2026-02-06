@@ -1,0 +1,14 @@
+Mejoras 
+
+1) cree carpeta .streamlit 
+   dentro de esa carpeta use un config.toml 
+   finalidad: mantener consistencia en los estilos, tanto en modo claro como oscuro
+              mejorar contraste
+
+2) en el apartado de app.py de estilos :
+     cambie colores de los botones +  y - para mejorar contrastes
+
+3) En el apartado de 1) Ingreso densidades -> Al guardar un registro :
+     previamente no se mostraba el mensaje de "registro guardado" , esto se debe a que
+     al guardar y actualizar la UI , no da tiempo de que se muestre el mensaje.
+     Ahora se muestra, pero en ciertos escenarios no se alcanza a mostrar, se mejorará

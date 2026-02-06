@@ -1,0 +1,115 @@
+INIT_CONTENT-84f133d9-e724-4063-a3a8-8dad6727a4dc__dueño_del_producto__REVA.docx
+#### Resultado
+
+#### 🧾 Resumen
+Documento que consolida los requerimientos “última hora” para el MVP CORFO, definiendo funcionalidades de exportación Excel, dashboards internos, UI moderna, gestión documental, IA contextual y criterios QA/QC inalterables.
+
+#### 📋 Requisitos / frases detectadas
+- Exportar Excel por pantalla para cada módulo clave.  
+- Dashboard automático interno por pantalla con gráficos y KPIs.  
+- Uso de calendarios (date picker) en todos los campos de fecha.  
+- Listas desplegables en campos repetitivos (proyecto, tramo, método, etc.).  
+- Criterios QA/QC inalterables (estado A/O/R, % compactación, control PIE).  
+- Gestión documental trazada por proyecto con soft‑delete y versionado.  
+- IA siempre contextualizada al proyecto activo y a la documentación seleccionada.  
+- Botones estándar por pantalla: Exportar Excel, Ver Dashboard, Cargar/Eliminar documento, IA‑Consultar.  
+- Estética cuidada: interfaz clara, colores QA/QC, sin ocultar datos ni alterar cálculos.  
+- Flexibilidad para usar Power BI mediante Excel “listo para BI”.
+
+#### ✅ Checklist QA/QC
+[Exportar Excel por pantalla ~~ Dashboard automático interno ~~ Calendarios en campos de fecha ~~ Listas desplegables en campos críticos ~~ Criterios QA/QC inalterables ~~ Gestión documental con soft‑delete ~~ IA contextualizada por proyecto ~~ Botones estándar por pantalla ~~ Estética cuidada sin ocultar datos ~~ Compatibilidad con Power BI]
+END_CONTENT-84f133d9-e724-4063-a3a8-8dad6727a4dc__dueño_del_producto__REVA.docx
+INIT_CONTENT-1595cfaf-3388-40d1-9be2-86164e64127c__Alcance__REVA.docx
+#### Resultado
+#### 🧾 Resumen
+Documento que define el alcance, objetivo, especificación, requisito y criterio para desarrollar un programa superlativo.
+
+#### 📋 Requisitos / frases detectadas
+- Alcance: Hacer un super programa  
+- Objetivo: Mi objetivo genial  
+- Especificación: 123  
+- Requisito: Crear el mejor programa del mundo  
+- Criterio: Muy criterioso  
+
+#### ✅ Checklist QA/QC
+[Verificar alcance ~~ Validar objetivo ~~ Confirmar especificación ~~ Cumplir requisito ~~ Evaluar criterio de calidad ~~ Realizar pruebas funcionales ~~ Documentar resultados ~~ Aprobar entrega ~~ Revisar retroalimentación ~~ Garantizar trazabilidad]
+END_CONTENT-1595cfaf-3388-40d1-9be2-86164e64127c__Alcance__REVA.docx
+INIT_CONTENT-92f5a61e-7b49-42e5-bccb-d9171320e92f__ULTIMO_COMPROMISO__REV0.docx
+#### Resultado  
+
+#### 🧾 Resumen  
+Implementación de la Biblioteca EETT (Pantalla 7) con guardado físico, índice anti‑duplicado y UI de gestión; y la pantalla IA (Pantalla 8) que procesa el PDF para extraer información y generar logs.  
+
+#### 📋 Requisitos / frases detectadas  
+- Guardar el PDF en `./biblioteca_eett/` con nombre `DocID__NombreSanitizado__REV.pdf` o `DocID.pdf`.  
+- Crear/actualizar `qintegrity_eett_index.xlsx` (o .csv) con campos: DocID, UUID/GUID, Nombre, Ext, Disciplina/Tags, Fecha_Carga, REV, Estado, Hash, RutaRelativa.  
+- Calcular SHA256 y evitar duplicados; avisar “Documento ya existe (mismo contenido)”.  
+- UI tabla con buscar/filtrar, descargar, marcar obsoleta y eliminar definitivo.  
+- Exponer función `get_eett_catalog()` para que P8 (y módulos 1‑6) consuman el catálogo de documentos vigentes.  
+- Añadir campo opcional “Doc asociado (EETT)” en módulos 1‑6 mediante dropdown.  
+- En Pantalla 8 leer PDF, extraer texto, generar resumen, requisitos clave, checklist QA/QC y log de ejecución.  
+- No tocar la lógica existente de los módulos 1‑6 en esta fase.  
+- Proveer parche mínimo de menú/router para integrar P7/P8 en la barra lateral.  
+
+#### ✅ Checklist QA/QC  
+[Validar guardado físico en carpeta correcta ~~ Verificar nomenclatura sin colisión de nombres ~~ Generar/actualizar índice con todos los campos requeridos ~~ Calcular y comparar hash SHA256 para detección de duplicados ~~ UI muestra acciones de búsqueda, descarga, obsolescencia y eliminación ~~ Exponer y probar `get_eett_catalog()` para consumo externo ~~ Añadir campo opcional de documento asociado en módulos 1‑6 ~~ Extraer texto del PDF y manejar errores de extracción ~~ Generar resumen y checklist QA/QC en salida ~~ Registrar log de ejecución con timestamps]
+END_CONTENT-92f5a61e-7b49-42e5-bccb-d9171320e92f__ULTIMO_COMPROMISO__REV0.docx
+INIT_CONTENT-f80d9ec3-8d80-4f4f-a05c-d961ae4dd1de__testeo__REVA.docx
+#### Resultado
+#### 🧾 Resumen
+El documento solicita verificar urgentemente los aspectos de compactación, humedad relativa y control de densidad como palabras clave para testear la IA del proyecto.
+
+#### 📋 Requisitos / frases detectadas
+- compactación  
+- humedad relativa  
+- control de densidad  
+- testear la IA  
+- verificar estos 3 aspectos  
+- urgencia en la verificación  
+- continuidad del desarrollo del proyecto  
+
+#### ✅ Checklist QA/QC
+[Verificar compactación ~~ Medir humedad relativa ~~ Controlar densidad ~~ Registrar resultados ~~ Comparar con especificaciones ~~ Validar datos en la IA ~~ Emitir informe de conformidad]
+END_CONTENT-f80d9ec3-8d80-4f4f-a05c-d961ae4dd1de__testeo__REVA.docx
+INIT_CONTENT-c43e55df-2872-4646-8cda-1322a63a1405__810TJ04_TALLER_DE_APLICACIONES_JAVA_-_A__REVA.pdf
+#### Resultado
+
+#### 🧾 Resumen
+Documento que define la actividad de integración de la asignatura núcleo para la carrera de Analista Programador Computacional, describiendo metodología, requisitos formales, casos prácticos de desarrollo web y criterios de evaluación mediante rúbricas.
+
+#### 📋 Requisitos / frases detectadas
+- Documento en formato Word, Calibri 12, interlineado 1.15, párrafo justificado.  
+- Desarrollo de una página principal con los elementos HTML necesarios.  
+- Implementación de sistema de categorías de libros usando HTML y CSS.  
+- Aplicación de técnicas de diseño responsivo en CSS para dispositivos móviles y de escritorio.  
+- Consideraciones de accesibilidad en el sitio web (HTML y CSS).  
+- Responder cada pregunta con una plana como máximo por ítem.  
+- Incluir introducción y conclusión en el documento entregado.  
+- Cumplir con porcentaje de aprobación mínimo del 60 % (36 pts).  
+- Utilizar rúbrica para medir precisión, diseño responsivo, accesibilidad y creatividad.  
+- Evaluación individual mediante estudio de caso y retroalimentación.
+
+#### ✅ Checklist QA/QC
+[Formato del documento Word ~~ Cumplimiento de requisitos formales ~~ Implementación de HTML y CSS requeridos ~~ Aplicación de diseño responsivo ~~ Verificación de accesibilidad ~~ Uso de rúbrica para evaluación ~~ Aseguramiento del porcentaje de aprobación ~~ Revisión de lógica y código ~~ Entrega con introducción y conclusión ~~ Control de plazos de entrega]
+END_CONTENT-c43e55df-2872-4646-8cda-1322a63a1405__810TJ04_TALLER_DE_APLICACIONES_JAVA_-_A__REVA.pdf
+INIT_CONTENT-3c72df72-18b6-4ba1-896c-132fd71847c4__Clase-de-Repaso-Extendido1__REVA.pdf
+#### Resultado
+
+#### 🧾 Resumen
+Repaso integral de arquitecturas de software, APIs, modelado UML, Modelo 4+1 e ITIL, con énfasis en patrones (capas, MVC, microservicios), tipos de API (REST, SOAP, GraphQL) y buenas prácticas de gestión de servicios.
+
+#### 📋 Requisitos / frases detectadas
+- Arquitectura en capas para separación de responsabilidades.  
+- Patrón MVC como base de desarrollo web.  
+- Microservicios: despliegue y escalabilidad independiente.  
+- API REST: endpoints, métodos HTTP y formato JSON.  
+- SOAP: protocolo XML con seguridad WS‑Security.  
+- Diagramas UML (casos de uso, clases, secuencia, componentes, despliegue).  
+- Modelo 4+1: vistas lógica, de desarrollo, de procesos, física y de escenarios.  
+- ITIL: gestión de incidentes, problemas, cambios y SLA.  
+- CMDB como repositorio de configuración.  
+- Mejora continua (CSI) para optimizar procesos y servicios.  
+
+#### ✅ Checklist QA/QC
+[Revisar arquitectura en capas ~~ validar endpoints REST ~~ comprobar diagramas UML ~~ asegurar cumplimiento SLA ~~ revisar procesos de gestión de incidentes ITIL ~~ verificar configuración en CMDB ~~ probar despliegue de microservicios ~~ evaluar seguridad y conformidad SOAP ~~ validar consistencia del Modelo 4+1 ~~ documentar mejoras en CSI]
+END_CONTENT-3c72df72-18b6-4ba1-896c-132fd71847c4__Clase-de-Repaso-Extendido1__REVA.pdf
