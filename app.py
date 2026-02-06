@@ -38,7 +38,7 @@ try:
     # Marcamos variable de obtencion e inicializamos groq con la API key guardada en secrets.toml para pantalla 8
     api_key=st.secrets("groq_api_key")
     
-    if client_groq:
+    if api_key:
         client_groq = Groq(api_key=api_key)
         HAS_GROQ = True
     else:
