@@ -21,6 +21,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from pathlib import Path
+from api_ia import ApiIa
 
 # IMPORT OPENPYXL OPCIONAL
 try:
@@ -30,15 +31,24 @@ except Exception:
     HAS_OPENPYXL = False
 
 # IMPORT GROQ SEGURO PARA PANTALLA 8, ANTES DE USO
+API_IA = None
+HAS_GROQ = False
 try:
     from groq import Groq
     # Marcamos variable de obtencion e inicializamos groq con la API key guardada en secrets.toml para pantalla 8
-    from api_ia import ApiIa 
-    HAS_GROQ = True
-except ImportError:
+    api_key=st.secrets("groq_api_key")
+    
+    if client_groq:
+        client_groq = Groq(api_key=api_key)
+        HAS_GROQ = True
+    else:
+        API_IA = ApiIa(None)
+        HAS_GROQ = False
+except Exception:
     # Sino tiene la libreria se inicializa de todos modos como falso en obtencion y nulo en valor
+    API_IA = ApiIa(None)
     HAS_GROQ = False
-    API_IA = None
+
 
 
 
