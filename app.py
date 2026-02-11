@@ -3766,14 +3766,15 @@ def render_pantalla_8_ia():
     cache_key = f"chat_ia_{id_generated}"
     
     if cache_key not in st.session_state:
-        # Intentamos traer de la BD
+
         ia_content = API_IA_INSTANCIA.check_resumen_ia(id_generated)
         
         if ia_content == "":
-            # Si no existe, lo generamos UNA SOLA VEZ
+            # Si no existe, lo generamos una sola vez 
             with st.spinner("Generando análisis inicial con IA..."):
                 chat_ia = API_IA_INSTANCIA.generate_ia_resume(text)
         else:
+            
             # Reutilizamos el existente
             chat_ia = ia_content
         # GUARDAR EN SESSION_STATE para evitar regeneraciones
@@ -3783,7 +3784,8 @@ def render_pantalla_8_ia():
         chat_ia = st.session_state[cache_key]
 
     # Mostrar el resumen
-    st.markdown(chat_ia)
+    clean_resume = API_IA_INSTANCIA.clean_checkboxes(chat_ia)
+    st.markdown(clean_resume)
     
     # Generamos los checkboxes interactivos
     checkboxes = API_IA_INSTANCIA.generate_checkboxes(chat_ia)
