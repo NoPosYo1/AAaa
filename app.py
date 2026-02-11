@@ -22,7 +22,152 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 from api_ia import ApiIa
+import fitz  # PyMuPDF
+import cv2
+from rapidocr_onnxruntime import RapidOCR
 
+################################# OPTIMIZACIONES MOTOR OCR ################################
+# Instancia OCR en cache para optimizacion
+@st.cache_resource
+def get_rapidocr_engine():
+    return RapidOCR()
+
+
+def _is_mostly_blank(gray: np.ndarray) -> bool:
+    """
+    Detecta páginas casi blancas para saltarlas y ahorrar tiempo.
+    Ajusta el umbral si tus escaneos son amarillentos/oscuros.
+    """
+    return (gray > 245).mean() > 0.995
+
+
+def _preprocess(gray: np.ndarray, max_w: int = 1200) -> np.ndarray:
+    """
+    Optimizado para scans claros (carta/oficio):
+    - Binariza (Otsu)
+    - Auto-crop de márgenes (reduce pixeles => acelera MUCHO)
+    - Downscale opcional si queda muy grande
+    """
+    # Otsu: fondo blanco, texto negro (rápido y efectivo en impresos)
+    _, th = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+
+    # --- Auto-crop márgenes ---
+    inv = 255 - th  # texto/blobs quedan >0
+    coords = cv2.findNonZero(inv)
+    if coords is not None:
+        x, y, w, h = cv2.boundingRect(coords)
+
+        pad = 10  # margen extra para no cortar letras
+        x0 = max(0, x - pad)
+        y0 = max(0, y - pad)
+        x1 = min(th.shape[1], x + w + pad)
+        y1 = min(th.shape[0], y + h + pad)
+
+        # Evita recortes absurdos por ruido
+        if (x1 - x0) > 200 and (y1 - y0) > 200:
+            th = th[y0:y1, x0:x1]
+
+    # --- Downscale por ancho máximo (a 90 DPI carta/oficio normalmente no aplica, pero tras crop puede ayudar) ---
+    h, w = th.shape
+    if w > max_w:
+        scale = max_w / w
+        th = cv2.resize(th, (max_w, int(h * scale)), interpolation=cv2.INTER_AREA)
+
+    return th
+
+
+def ocr_pdf_rapidocr(abs_path: str, cache_path: str, diag: List[str], dpi: int = 90) -> Tuple[str, str]:
+    """
+    OCR de PDF escaneado usando PyMuPDF + RapidOCR (ONNXRuntime).
+    - Sin poppler/tesseract
+    - Optimizado para scans claros (carta/oficio)
+    """
+    try:
+        diag.append("Usando OCR: PyMuPDF + RapidOCR (onnxruntime, pip-only)")
+        diag.append(f"Configuración: dpi={dpi}, colorspace=GRAY, auto-crop=ON, blank-skip=ON")
+
+        ocr_engine = get_rapidocr_engine()
+
+        doc = fitz.open(abs_path)
+        diag.append(f"PDF abierto: {doc.page_count} páginas")
+
+        prog = st.progress(0, text="OCR en progreso...")
+        info = st.empty()
+
+        ocr_pages: List[str] = []
+        t_all0 = time.perf_counter()
+
+        for idx in range(doc.page_count):
+            t0 = time.perf_counter()
+            try:
+                page = doc.load_page(idx)
+
+                # Render liviano: gris, sin alpha
+                pix = page.get_pixmap(dpi=dpi, colorspace=fitz.csGRAY, alpha=False)
+                gray = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width)
+
+                # Saltar páginas casi vacías
+                if _is_mostly_blank(gray):
+                    ocr_pages.append("")
+                    diag.append(f"Página {idx + 1}: saltada (casi en blanco)")
+                    prog.progress((idx + 1) / doc.page_count, text=f"OCR {idx+1}/{doc.page_count}")
+                    continue
+
+                # Preproceso (binariza + recorta márgenes + downscale opcional)
+                img = _preprocess(gray, max_w=1200)
+
+                # RapidOCR suele esperar BGR (OpenCV)
+                bgr = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+
+                # Ejecutar OCR
+                out = ocr_engine(bgr)
+
+                # RapidOCR puede devolver (result, elapse) o solo result según versión
+                result = out[0] if isinstance(out, tuple) and len(out) >= 1 else out
+
+                # result: lista de [box, text, score]
+                if result:
+                    lines = [r[1] for r in result if len(r) >= 2 and r[1]]
+                    ptext = "\n".join(lines).strip()
+                else:
+                    ptext = ""
+
+                ocr_pages.append(ptext)
+
+                t1 = time.perf_counter()
+                diag.append(f"Página {idx + 1}: {len(ptext)} chars | {t1 - t0:.2f}s")
+
+            except Exception as e:
+                diag.append(f"Página {idx + 1}: error RapidOCR: {e}")
+                ocr_pages.append("")
+
+            # Progreso UI liviano (sin toast)
+            prog.progress((idx + 1) / doc.page_count, text=f"OCR {idx+1}/{doc.page_count}")
+            if (idx + 1) % 5 == 0 or (idx + 1) == doc.page_count:
+                info.caption(f"Procesadas {idx+1}/{doc.page_count} páginas")
+
+        doc.close()
+        info.empty()
+
+        text = "\n".join(ocr_pages).strip()
+
+        t_all1 = time.perf_counter()
+        diag.append(f"Tiempo total OCR: {t_all1 - t_all0:.2f}s")
+
+        if text:
+            with open(cache_path, "w", encoding="utf-8") as f:
+                f.write(text)
+            prog.progress(1.0, text="OCR listo ✅")
+            return text, "\n".join(diag)
+
+        prog.empty()
+        return "", "\n".join(diag)
+
+    except Exception as e:
+        diag.append(f"Fallback RapidOCR falló: {e}")
+        return "", "\n".join(diag)
+
+################################# FIN OPTIMIZACIONES MOTOR OCR ################################
 # IMPORT OPENPYXL OPCIONAL
 try:
     import openpyxl  # noqa: F401
@@ -31,22 +176,38 @@ except Exception:
     HAS_OPENPYXL = False
 
 # IMPORT GROQ SEGURO PARA PANTALLA 8, ANTES DE USO
-API_IA = None
+# Cerca de la línea 190, donde está tu bloque de inicialización
+
+
+# En la parte superior de app.py, después de los imports
+from api_ia import ApiIa 
 HAS_GROQ = False
-try:
-    from groq import Groq
-    # Marcamos variable de obtencion e inicializamos groq con la API key guardada en secrets.toml para pantalla 8
-    api_key = st.secrets.get("groq_api_key")
-    
-    if api_key:
-        client_groq = Groq(api_key=api_key)
-        API_IA = ApiIa(client_groq)
-        HAS_GROQ = True
-    else:
-        HAS_GROQ = False
-except Exception:
-    # Sino tiene la libreria se inicializa de todos modos como falso en obtencion y nulo en valor
-    HAS_GROQ = False
+
+# No definas HAS_GROQ = False aquí si luego usas el de session_state, 
+# puede crear confusión de "ámbito" (scope).
+# --- INICIALIZACIÓN ROBUSTA DE IA ---
+if "HAS_GROQ" not in st.session_state:
+    st.session_state["HAS_GROQ"] = False
+
+if "API_IA" not in st.session_state or st.session_state["API_IA"] is None:
+    try:
+        from groq import Groq
+        api_key = st.secrets.get("groq_api_key")
+        
+        if api_key:
+            client_groq = Groq(api_key=api_key)
+            # Asegúrate que ApiIa esté importado arriba: from api_ia import ApiIa
+            st.session_state["API_IA"] = ApiIa(client_groq)
+            st.session_state["HAS_GROQ"] = True
+        else:
+            st.warning("⚠️ No se encontró la clave 'groq_api_key' en st.secrets.")
+    except Exception as e:
+        st.session_state["HAS_GROQ"] = False
+        st.error(f"❌ Error al conectar con Groq: {e}")
+
+# Esto crea un alias para que tus funciones viejas que usan HAS_GROQ no mueran
+HAS_GROQ = st.session_state["HAS_GROQ"]
+
 
 # ======================== FIN IMPORTS ===========================================
 # --- 🕵️ BLOQUE DE DIAGNÓSTICO (BORRAR AL FINAL) ---
@@ -3038,7 +3199,9 @@ def _eett_delete(docid: str) -> Tuple[bool, str]:
 def render_pantalla_7_eett():
     st.subheader("📚 Biblioteca EETT")
     st.caption("Pantalla 7 · Carga documentos + Índice con trazabilidad (hash anti-duplicado) + acciones")
-
+    if "mensaje" in st.session_state:
+        st.toast(st.session_state["mensaje"],icon="ℹ️")
+        del st.session_state["mensaje"]
     c1, c2 = st.columns([1.2, 1.8])
 
     with c1:
@@ -3058,7 +3221,7 @@ def render_pantalla_7_eett():
                     rev=str(rev).strip(),
                     tags=str(tags).strip(),
                 )
-                (st.success if created else st.info)(msg)
+                st.session_state["mensaje"] = "Documento subido correctamente" if created else msg
                 st.rerun()
 
     with c2:
@@ -3127,7 +3290,7 @@ def render_pantalla_7_eett():
                 try:
                     if abs_path and os.path.exists(abs_path):
                         with open(abs_path, "rb") as f:
-                            st.download_button("⬇️ Descargar PDF", data=f.read(), file_name=nombre, mime="application/pdf", width='stretch')
+                            dwld = st.download_button("⬇️ Descargar PDF", data=f.read(), file_name=nombre, mime="application/pdf", width='stretch')
                     else:
                         st.warning("Archivo físico no encontrado.")
                 except Exception as e:
@@ -3136,14 +3299,17 @@ def render_pantalla_7_eett():
             with a2:
                 if st.button("🗂️ Marcar Obsoleta", width='stretch'):
                     _eett_mark_obsolete(str(pick))
-                    st.success("Marcada como Obsoleta (no borré el PDF físico).")
+                    st.session_state["mensaje"]= "Marcada como Obsoleta (no borré el PDF físico)."
                     st.rerun()
 
             with a3:
                 if st.button("🧨 Eliminar definitivo", width='stretch'):
                     ok, msg = _eett_delete(str(pick))
-                    (st.success if ok else st.error)(msg)
+                    st.session_state["mensaje"] = "Se elimino correctamente" if ok else msg
                     st.rerun()
+            if dwld:
+                st.session_state["mensaje"] = "Descargando...."
+
 
 
 # =========================================================
@@ -3278,13 +3444,7 @@ def _detect_language(text: str) -> str:
 
 
 def _find_poppler_path() -> Optional[str]:
-    """Intenta localizar la ruta al directorio `bin` de Poppler.
 
-    Estrategias:
-    - Variable de entorno POPPLER_PATH
-    - Buscar pdftoppm en PATH
-    - Buscar en carpetas de WinGet bajo %LOCALAPPDATA%\Microsoft\WinGet\Packages\*poppler*\*\Library\bin
-    """
     try:
         # 1) variable de entorno explícita
         poppler_path = os.environ.get("POPPLER_PATH")
@@ -3309,9 +3469,6 @@ def _find_poppler_path() -> Optional[str]:
     except Exception:
         pass
     return None
-
-
-
 
 
 def _read_pdf_text_robust(abs_path: str, force_ocr: bool = False) -> Tuple[str, str]:
@@ -3391,41 +3548,19 @@ def _read_pdf_text_robust(abs_path: str, force_ocr: bool = False) -> Tuple[str, 
     except Exception as e:
         diag.append(f"Error ejecutando ocrmypdf: {e}")
 
-    # 3) Fallback: pdf2image + pytesseract
+    # 3) Fallback: PyMuPDF (pymupdf) + RapidOCR (sin poppler/tesseract)
     try:
-        from pdf2image import convert_from_path  # type: ignore
-        import pytesseract  # type: ignore
-        poppler_path = os.environ.get("POPPLER_PATH", None)
-        if not poppler_path:
-            found_poppler = _find_poppler_path()
-            if found_poppler:
-                poppler_path = found_poppler
-                # configurar para este proceso
-                os.environ["POPPLER_PATH"] = poppler_path
-                diag.append(f"Autodetectado POPPLER_PATH={poppler_path}")
-        pytesseract.pytesseract.tesseract_cmd = os.environ.get("TESSERACT_CMD", "tesseract")
-        diag.append(f"Usando TESSERACT_CMD={pytesseract.pytesseract.tesseract_cmd} poppler_path={poppler_path}")
-        images = convert_from_path(abs_path, dpi=300, poppler_path=poppler_path)
-        diag.append(f"convert_from_path devolvió {len(images)} imágenes")
-        ocr_pages: List[str] = []
-        for idx, img in enumerate(images):
-            try:
-                ptext = pytesseract.image_to_string(img, lang="spa")
-                ocr_pages.append(ptext)
-                diag.append(f"Página {idx+1}: extraídos {len(ptext)} chars")
-            except Exception as e:
-                diag.append(f"Página {idx+1}: error pytesseract: {e}")
-                ocr_pages.append("")
-        text = "\n".join(ocr_pages).strip()
-        if text:
-            with open(cache_path, "w", encoding="utf-8") as f:
-                f.write(text)
-            return text, "\n".join(diag)
-    except Exception as e:
-        diag.append(f"Error pdf2image/pytesseract: {e}")
+        diag.append("Usando fallback OCR: PyMuPDF + RapidOCR (onnxruntime, sin binarios externos)")
 
-    diag.append("No se pudo extraer texto con ninguno de los métodos.")
-    return "", "\n".join(diag)
+        # Llama a la función que pegaste (ya abre el PDF, procesa páginas, cachea motor y guarda progreso)
+        text, debug = ocr_pdf_rapidocr(abs_path, cache_path, diag, dpi=90)
+
+        # debug ya trae el diag unido; pero como estamos pasando diag, puedes retornar el debug directamente
+        if text:
+            return text, debug
+
+    except Exception as e:
+        diag.append(f"Fallback RapidOCR falló: {e}")
 # --- MOTOR OCR Y DETECCIÓN DE IDIOMA ---
 
 
@@ -3477,7 +3612,7 @@ def render_pantalla_8_ia():
     if df is None or df.empty:
         st.info("No hay documentos en la biblioteca EETT. Sube uno en Pantalla 7.")
         return
-    if not HAS_GROQ:
+    if not st.session_state.get("HAS_GROQ", False):
         st.error(
             "Groq no está instalado en el proyecto, es necesario para este modulo de analisis mediante IA")
         st.error(
@@ -3528,23 +3663,13 @@ def render_pantalla_8_ia():
         if not text or len(text.strip()) < 200:
             text, diag = _read_pdf_text_robust(abs_path, force_ocr=True)
         if not text.strip():
-            st.error("No pude extraer texto desde el PDF.")
+            st.error(diag)
             return
     else:
         st.warning("Tipo de archivo no soportado. Esta demo analiza DOCX y PDF (con OCR).")
         return
-    
-    MAX_CHARS = 18000  # Límite seguro para la API gratuita
-    if len(text) > MAX_CHARS:
-        st.warning(f"⚠️ El documento es muy largo ({len(text)} caracteres). Se recortó a los primeros {MAX_CHARS} para analizarlo con la versión gratuita.")
-        text = text[:MAX_CHARS] + "\n... [TEXTO CORTADO POR LÍMITE DE TAMAÑO]"
-    
-    # Detección de idioma y alerta si no es español
-    lang = _detect_language(text)
-    if lang != "es":
-        st.warning(f"Idioma detectado: {lang}. El motor espera principalmente documentos en español.")
-        if not st.checkbox("Continuar de todos modos (texto no en español)", value=False):
-            return
+
+
     # --- FIN MODIFICACIÓN: extracción y OCR ---
 
     # ANALISIS DE IA Y GENERACION DE CHECKLISTS QA/QC
@@ -3616,28 +3741,87 @@ def render_pantalla_8_ia():
             chk_key = f"{id_generated}_chk_{index}"
             st.checkbox(chk_text if chk_key not in revisiones else f"~~{chk_text.strip()}~~",key=chk_key,on_change=callback_chk_box,args=(chk_key,),value=True if chk_key in revisiones else False)
 
+
     id_generated = Path(abs_path).name
-    ia_content = API_IA.check_resumen_ia(id_generated)
-    if ia_content =="":
-        ia_resume = API_IA.generate_ia_resume(text)
-        checkboxes = API_IA.generate_checkboxes(ia_resume)
-        API_IA.save_resume_ia(ia_resume,id_generated)
-        ia_resume = API_IA.clean_checkboxes(ia_resume)
-        st.markdown(ia_resume)
-        create_checkboxes(id_generated,checkboxes)
-    elif "❌" not in ia_content:
-        checkboxes = API_IA.generate_checkboxes(ia_content)
-        ia_content = API_IA.clean_checkboxes(ia_content)
-        st.markdown(ia_content)
-        create_checkboxes(id_generated, checkboxes)
-    else:
-        # Significa que hubo un error, en ese caso mostramos el detalle
-        st.error(ia_content)
+
+    if "current_doc_id" not in st.session_state:
+        st.session_state["current_doc_id"] = id_generated
+
+    # Si el ID guardado es diferente al actual, limpiamos el historial
+    if st.session_state["current_doc_id"] != id_generated:
+        st.session_state["chat_history"] = []
+        st.session_state["current_doc_id"] = id_generated
+        # Opcional: Mostrar un aviso rápido
+        st.toast(f"Cambiando contexto a: {id_generated}", icon="🔄")
+
+    # EXTRAE LA INSTANCIA DE LA SESIÓN (Soluciona el NameError)
+    API_IA_INSTANCIA = st.session_state.get("API_IA")
+
+    # 1. RECUPERAR INSTANCIA DE IA
+    API_IA_INSTANCIA = st.session_state.get("API_IA")
+
+    if API_IA_INSTANCIA is None:
+        st.error("❌ El motor de IA no está inicializado. Revisa la configuración al inicio de la app.")
         st.stop()
 
+    # 2. INTENTO DE RESUMEN Y CHECKLIST
+    # ia_content es lo que traemos de la base de datos de la IA
+    ia_content = API_IA_INSTANCIA.check_resumen_ia(id_generated)
+    chat_ia = ia_content
 
+    if ia_content == "":
+        # Si no hay resumen previo, lo generamos usando el texto extraído (variable 'text')
+        with st.spinner("Generando análisis inicial con IA..."):
+            ia_resume = API_IA_INSTANCIA.generate_ia_resume(text)
+            st.markdown(ia_resume)
+            
+            # Generamos los checkboxes interactivos
+            checkboxes = API_IA_INSTANCIA.generate_checkboxes(ia_resume)
+            chat_ia = ia_resume
+            create_checkboxes(id_generated, checkboxes)
+    else:
+        # Si ya existía, mostramos el contenido guardado
+        st.markdown(ia_content)
+        chat_ia = ia_content
+        checkboxes = API_IA_INSTANCIA.generate_checkboxes(ia_content)
+        create_checkboxes(id_generated, checkboxes)
 
+    # --- 3. CHAT INTERACTIVO SOBRE EL DOCUMENTO ---
+    st.markdown("---")
+    st.subheader("💬 Chat Consultor de EETT")
+    st.caption("Pregunta sobre tolerancias, materiales o normativas específicas de este documento.")
 
+    # Inicializar historial de chat si no existe
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
+
+    # Mostrar los mensajes que ya existen en el historial
+    for message in st.session_state.chat_history:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # Entrada de nueva pregunta del usuario
+    if pregunta := st.chat_input("Escribe tu duda aquí..."):
+        # Añadimos la pregunta al historial y la mostramos
+        st.session_state.chat_history.append({"role": "user", "content": pregunta})
+        with st.chat_message("user"):
+            st.markdown(pregunta)
+
+        # Generamos la respuesta de la IA
+        with st.chat_message("assistant"):
+            with st.spinner("Revisando el documento..."):
+                # IMPORTANTE: Pasamos 'text' (el OCR/Word) para que la IA sepa qué responder
+#                ia_resume = API_IA_INSTANCIA.generate_ia_resume(text)
+                respuesta = API_IA_INSTANCIA.chat_interactivo(
+                    pregunta,
+                    st.session_state.chat_history[:-1],
+                    chat_ia
+                )
+                st.markdown(respuesta)
+        
+        # Guardamos la respuesta y refrescamos para mantener el orden
+        st.session_state.chat_history.append({"role": "assistant", "content": respuesta})
+        st.rerun()
 
 # =========================================================
 # ==============  ROUTER NUEVAS PANTALLAS 7/8  =============
@@ -3671,7 +3855,6 @@ def get_eett_catalog_vigente():
     except Exception:
         return []
 
-
 def densidades_doc_eett_selector():
     """
     Selector opcional de Documento Técnico (EETT)
@@ -3682,9 +3865,9 @@ def densidades_doc_eett_selector():
         st.info("No hay documentos EETT vigentes cargados")
         return None
 
-    labels = ["— Sin documento asociado —"] + [o[1] for o in opciones]
+    labels = ["— Seleccione un documento —"] + [o[1] for o in opciones]
     values = [None] + [o[0] for o in opciones]
-
+    
     seleccion = st.selectbox(
         "Documento Técnico Asociado (EETT)",
         options=list(range(len(values))),
@@ -3702,5 +3885,3 @@ def densidades_attach_doc_eett(df):
     if "DocID_EETT" not in df.columns:
         df["DocID_EETT"] = None
     return df
-
-

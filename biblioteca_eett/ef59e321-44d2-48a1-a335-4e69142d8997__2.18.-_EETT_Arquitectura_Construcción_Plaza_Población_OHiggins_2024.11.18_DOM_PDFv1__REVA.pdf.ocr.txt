@@ -1,0 +1,1566 @@
+SECOPLAC
+Ilustre
+Municipalidad
+de iquique
+ESPECIFICACIONES TECNICAS DE ARQUITECTURA
+PROYECTQ:
+CONSTRUCCION PLAZA PDBLACION O'HIGGINS
+IQUIQUE
+mnunicipioiquique.cl
+pac tdos
+SECOPLAC
+ustre
+Municipalidad
+de iquique
+SECPETARIA COMUNAL CE PIAH FICAHIUN
+D. GENERALIDADES
+0.1DESCRIPCION DE LA OBRA:
+PROYECTO
+: CONSTRUCCION PLAZA POBLACION O'HIGGINS
+UBICACION
+: LUIS CRUZ MARTiNEZ CON DIEGO PORTALES
+SUPERFICIE TERRENQ
+: 552,22 m²
+SUPERFICIE CONSTRUDA
+: 552,22 m2
+PROPIETARIO
+: JLUSTRE MUNICIPALIDAD DE IQUIQUE
+FECHA
+: SEPTIEMBRE 2024
+Las presentes especificaciones tecnicas, estan referidas a las abras de construccion de la plaza
+ublcada en la poblacion O'Higgins, cuya ubicacion correspande a la esquina entre las calles Luis
+Cruz Martinez y Diego Portales. El terreno carresponde a un area verde de administracion por [a
+Ilustre Municipalidad de lquique.
+0.1.1Del proyecta:
+El proyecto consiste en mejorar las condicianes actuales del terreno, con el fin de revitalizar el
+uso actual, re ordenando sus elementos, eliminando aquellos en mal estado e incorporando
+nuevos que se adecien mejor para Bu uso.
+Las marcas comerciales que se especifiquen ern este documanto, seran nominadas sdlo a titulo
+informativo.
+Se debera verificar la existencia de postacianes, canales, ductos Bubterraneos y otras
+instalaciones, asi como tambien arboles, animales y otras especies naturales, todo lo cual pudiera
+interferir en las obras; de manera de tonar las medidas necesarias para que no sufran dano y
+evitar accidentes. En caso de que no se suministre informacion existente de levantamiento por el
+mandante, sera responsabilidad del oferente realizar esta tarea.
+Asimismo, todas las vias de transito aledanas a la obra, deberan mantenerse expeditas y libres
+de escormbros. Si durante la construccion estas vlas, sufren daffos por efecto de la Obra, Be
+deberan efectuar las respectivas reposiciones a su costa. Se deberan colocarlas senalizaciones
+de seguridad necesarias para la entrada y salida de vehiculos y transito de peatones.
+En las presentes especificaciones tecnicas podrian omitirse detalles del praceso constructivo.
+entendiendose que ias obras estaran a cargo de un aquipo idoneo de construccion quienes
+manejan las tecnicas y el arte del buen construir. El contratista a cargo de las obras debera velar
+por la correcta ejecucion de todas las partidas, asegurando un resultada final optimo, el cual sera
+verificado y certificado por la unidad a cargo de la ejecuclon: Direccion de Obras Municipales,
+ademas del arquitecto patrocinante del proyecto para la recepcion de los trabajos.
+Para el presente proyacto, y como norma general, Los planas de arquitectura, generales y de
+detalle, priman por sobre el resto de los planos, y las EETT de arquitectura prevalecen por sobre
+los demas documentos. En caso de que las siguientes especiflicaciones tecnicas omitan algun
+detalle constructivo. material u otro, estos seran definidas en obra por los arquitectos
+patrocinantes del proyecto.
+Si se presentaran detalles que falten por definir deberan ser desarrollados por la empresa
+tjecuciones a las partidas involucradas y las relacionadas con estos mismos detalles, pudiendo
+ei mismo arquitecto, en caso de incumplimiento de este punto, paralizar [os trabajos hasta cantar
+con los vistos buenos requeridos. Lo anterior quedando en acta en el Libro de Obra.
+IQUQUE
+Serano N' 134
+municipioiquique.cl
+Edrficio Consistornial
+Sexic Pisa · Tarre Cetro
+para todos
+sarcp acmunicipoiquiqte.cl
+SECOPLAC
+ustre
+Municipalidad
+de lquique
+0.1.2 Del entorno:
+La plaza se ubica en un terreno de esquina, que actualmente por la falta'de.veredas y soleras se
+terreno las que, por su emplazamiento, se debera asegurar su acceso desde la calle Luis Cruz
+Martinez hacia el interior de sus estacionamientos.
+Existen obras existentes de radieres interiores y sectores de adocretos, pero en general se
+presentan en mal estado. En la gran mayoria del terreno interior no existe paviriento y se
+encuentra terreno natural, junto con una estructura de homigon armada, que en algn momento
+vegetales en malestado porlafalta de mantencion y otras secas,todas identificadas en los planos
+del proyecto.
+0.2 ALCANCE
+Tratandose de un contrato por suma alzada, el contratista debera consultar en su propuesta todos
+los elementos y acciones necesarias para la correcta ejecucion y terminacion de cada partida.
+aun cuando no aparezca su descripcion, detalle o especificacion en el legajo de antecedentes
+que correspondan a cada partida.
+En la obra de la referencia deben respetarse y aplicarse las "NCh o Normas Chilenas vigentes,
+publicadas por ei INN; las nomas extranjeras indicadas en cada especialidad; las normas IsO:
+otras normas o directrices impartidas por el IND, MINvU, MOP, la empresa sanitaria, la empresa
+electrica, o la llustre Municipalidad de lquique. Ademas, debe respetarse y aplicarse en todo
+momenta el arte de la buena construccion, y toda norma que se indique en tas presentes
+Especificaciones Tecnicas y las especificaciones de cada proyecto de especialidad.
+Del mismo modo, el Contratista debe respetar absolutamente la O.G.U.C. (Ordenanza General
+de Urbanismo y Construcciones) vigente y las presentes Especificaciones Tecnicas, que debera
+cumplir en todos sus capitulos,tanto en cuanto a calidad y caracteristicas de los materlales como
+de la mano de obra y de la ejecucion.
+Se debera proveer todas las situaciones de suministro, almacenamiento, transporte, seguros,
+mano de obra, etc., que requiera para la ejecucion de las obras. lgualmente, debera atenerse a
+la Ley 16.744, sobre prevencion de accidentes del trabajo y protecciones de uso personal.
+seguridad industrial, dotando a su personal de obra, jefes, profesionales, de todos los elementos
+Todos los planos y las Especificaciones Técnicas de proyectos, tanto generales como especiales,
+son absoluta e indisolublemerte complementarios. Vale decir, basta que un elementa o
+instalacion en obra, sea obligatoria para el Contratista, sin aumento del rnonto de la propuesta
+aceptada, por tratarse de una suma alzada.
+Absolutamente lodos los materiales,productos, sistemas, equipos, accesorios, instalaciones,
+procedimientos, etc. que componen el presente proyecto y obra a ejecutar seran siempre de
+primera calidad (optimog) y para uso intensivo yro alto trafico, sin ser necesario que se repita esta
+indicacion reiterativamente en cada capitulo. Lo anterior es, desde ya, de pleno conocimiento del
+Contratista, quien debe tranismitirlo e informar a todo su personal y subcontratistas, sin excepcion.
+IQUIQUE
+St!am?N 13
+municipioiquique.cl
+Edficio Cons'sioril
+Scxtc Piso - Tore Cero
+para. odas
+setcpla:rm Jricip oujuk
+SECOPLAC
+Justre
+Municipalidad
+de lquique
+El Contratista, al estudiar la propuesta, deberä analizar detenidamente los elementos
+especificados, nacionales o importadas, esten o no representados estos ltimos en Chile, ya que
+la 'iTo no aceptara sustitutos que no cumplan con la calidad de equivalente tecnico de ios
+especificados. El Contratista adquiere aste compromiso con el solo hecho de presentarse a la
+prasente licitacion.
+Ademas, el Contratista debera verificar las factibilidades de los distintos servicios, tale como
+agua potable, alcantarillado, electricidad, gas, etc. Los planos de instalaciones entregados en
+esta propuesta san referenciales. El Contratista debera tramitar confeccionar las versiones finales
+Bobre los planas gernerales y las cotas sobra el dibujo.
+Si alguna partida estuvlera indicada, ya sea en planos o en Especificaciones Tecnicas, en forma
+incompleta para una correcta cubicacion, el Contratista estara obligado a solicitar las
+antecedentes faltantes durante el periodo de Preguntas y Consultas. En caso contrario, se
+entendera que sera de su cargo la aclaracion a la partida citada en los terminos que
+posterionente indique el arquitecto proyectista.
+El presupuesto de la oferta economica debara ser realizado por el oferente exclusivamente sobre
+Especificaciones Técnicas. No puede haber exclusiones en la oferta de la Empresa Constructora.
+Si hay un item sin indicacion de su cantidad y costo en el Formulario de Propuesta, se entendera
+que su precio esta cotizado, considerado e incluido en otra partida.
+Se da por entendido que el Contratista esta en conocimienta de todas estas disposiciores, asi
+o dificuitad de obtenciorn de los elementos que conforman la construccion, es de su Unica
+responsabilidad, debiendo rehacer o corregir los elementos o procedimientos rechazados por la
+ITO en cualquiera de las partidas, de serle indicado asl dentro del perlodo de construccion o
+dentro del plazo de garantia de las obras.
+0.3 REFERENCIAS
+En general, los planos de arquitectura prevalecen sobre los de calculo e inistalaciones, los planos
+de detalle sobre los de arquitectura, instalaciones y calculo. Las cotas prevalecen sobre el dibujo.
+Las anotaciones en el libro de obras prevalecen sobro los planos en general y sobre las
+especificaciones tecnicas.
+Las especificaciones tecnicas, planos de arquitectura, proyectos anexos y detalles, forman un
+todo complementario. Por ello, todos los detalles que aparezcan en los planos y que no se
+mencionan en las especificaciones tecnicas, asf como los mencionados y que no aparezcan en
+los planos, seran interpretados formando parte del proyecto.
+En caso de divergencia entre planos de diversa escala, prima el plano de detalle.
+En caso de divergencia entre dibujo y la cota anotada, prevalece la cota.
+En caso de divergencia entre plano de caiculo y arquitectura. priman los planos de arquitectura.
+[QUIQUE
+Serall N 134
+Edifircao Cons stc'lal
+municipioiquique.cl
+Sexto Piso + Torre Cerro
+f@X
+para. todos
+secoplacmuicpigiqique.cl
+SECOPLAC
+Ilustre
+Muricipalidad
+de lquique
+SEGHETAIA COMUNAL DE P,AH  CAC'CH
+En caso de divergencia entre documentos se aceptara el slguiente criterio:
+Cota manda sobre dibujo
+Plano de arquitectura sobre especialidades
+Planos de detalle sobre planos generales
+El libro de obra sobre los restantes documentos.
+Cualquier duda que merezca la interpretacion de los planos yfo especificacianes tecnicas sere
+requerira de los informes que estime procedentes de los respectivos asesores de especialidades,
+teniendo esta gestion el encargado de la obra de proporcionarlos o de organizar las reunionas
+pertinentes para dilucldaros.
+0.4 NORMAS NACIONALES
+Las presentes especificaciones tecnicas son complementarias de los planos del proyecto. La obra
+debera ejecutarse en estricto acuerdo con dichos dacumentos y con aquellos que se emitan con
+las demoliciones, deben jecutarse respetando la legislacion y reglamentacion vigente, en
+especial:
+Ley General de Urbanismo y Construccianes.
+Ordenanza General de Urbanismo y Construcciones.
+Reglamentas para instalaciones y abras de pavimentacion de los servicios
+corTespondientes: Aguas del Altiplano, CGE, SEC, SERVIU, etc.
+Ordenanzas Municipales que correspondan a rnivel local.
+Leyes, decretos o disposiciones reglamentarias relativas a permisos, aprobaciones,
+derechos, impuestos, inspecciones y recepciones de los servicios y municipalidad.
+Normas INN pertinentes a las partidas consultadas en el proyecto.
+Decreto 51, Reglamento de Alumbrado Publico de Bienes Nacionales de Uso Publico
+destinados al transito peatonal, Ministerio de Energia.
+Decreto 50/2018, Reglamento sobre Igualdad de oportunidades e inclusion social de
+personas con discapacidad, MINvU.
+Ley 18.290 del Transito, Articulo N°102, sobre la seguridad en trabajos que se ejecuten
+en las vias publicas.
+Reglamento de Instalaciones domiciliarias de agua potable y alcantarllado (R.I.D.A.A.),
+en adalante el Reglamento (D.S.MOPN°50)
+Decreto N'209/2002, que aprueba el reglamento de Piscinas de Uso Pablico y sus
+modificaciones (Decreto N°84/04, MINSAL, D., OF 12.07.04 y Decreto N°43/06, MINSAL.
+D.OF.08.05.08)
+Decreto N's94/2000 del Ministerio de Salud que aprueba el Reglamento sobre
+Condiciones Sanitarias y Ambientales Basicas en los Lugares de Trabajo
+Ley N°20.422 sobre Igualdad de Oporturidades e Inclusion Social dePersonas
+con
+Discapacidad.
+D.5 ADMINISTRACION DE OBRA
+Se hace mencion qua la camunicacion entre la empresa ejecutora y el mandante, en este caso
+la llustre Municipalidad de lqukque sera de la siguiente manera:
+Desde la empresa ejecutora al mandaie, sera a traves y 'nicamente por el
+PROFESIONAL DE OBRA designado, individualizada en el Libro de Obras
+IQUIQUE
+Senan N*134
+municipioiquique.cl
+Edficio Consisloriall
+Sexte Piso · Torro Corro
+para todos
+seccplac@municipoquque.c!
+SECOPLAC
+Ilustre
+Municipalidad
+de lquique
+SECREAR 4 "HUA- E .RI AH
+Desde el mandante, sera a traves de:1.- El ITO, Inspector Tecnico de Obra (de DOM),
+individualizado en el Libro de Obras y 2.- El arquitecto del proyecto de la Secretaria
+Comunal de Planificacion (SECOPLAC), individualizado en el Libro de Obras
+En ningun caso se permitira la comunicacion o reunion tanto en terreno como en correos
+electronicos de otros encargados de la empresa como duenios, representantes legales.
+administrativos, etc. u otros que no sean los indicados anteriormente.
+Todos los planas,especificaciones tecnicas. proyectos de especialidades, permisos municipales,
+Empresa constructora reciba, los debera mantener en su poder en foma controlada, en buen
+cualquier momento por parte de un representante del Mandante, el Propietario, la ITO, el
+arquitecto, o los proyectistas de otras especialidades adjuntos.
+La Empresa Constructora debera mantener en obra un libro foliado y en triplicado, en donde el
+funciones, dejando constancia en el, las observaciones u ordenes respectivas., Las observaciongs
+en el libro de obras que signifiquen cambios en las especificaciones yru obras adicionales que
+alteren los castos, deberan tener el V'g del mandante antes de su ejecucidn.
+La Empresa Constructora debera mantener en obra un documento en que conste la formulacion
+de las medidas de gestion y control de calidad que adoptara durante su ejecucion. Asi mismo una
+vez terminada la obra, el constructor responsable por la Empresa, sera el encargado de informar
+adjuntar en la documentacion necesaria para realizar el praceso de la Recepcion Definitiva de
+obras.
+Se incluye dentro de la administracion de la obra, gestianar la recepcion definitiva ante la
+Direccion de Obras Municipales en todo lo que competa en la corfeccion do planos as built tanto
+de arquitectura, ingenieria y todas las instalaciones, ademas de los certificados correspondientes
+de todas las obras contempladas en el proyecto.
+El contratista debera velar para que se curnpla tal cual lo indicado en el expediente del Permiso
+de Urbanizacion aprobado del proyecto, teniendo en cuenta que en caso de haber modificaciones
+estas deberan ser tramitadas y confeccionadas tanto an planos como en documentos, memorias.
+etc. por la empresa contratista. El arquitecto proyectista revisara esta informacion y aprobara en
+caso de ser necesaria para que la empresa genere este ingreso previo a la recepcion de las
+obras. Se debera 1omar de referencia lo indicado en el Articulo 5.2.8 y el Articulo 5.1.17 de la
+O.G.u.C. en cuanto a lo que aplique para el proyecto de la plaza. De la carpeta final aprobada
+(planos y documentos) y timbrada por la Direccion de Obras Municipales, la empresa contratista
+debera entregar 2 copias en fisico al mandante junto con un respaldo digital en pendrive u otro
+medio de almacenamiento digitales como disco externo u otros. No Be perrnitira la entrega n
+discos 6pticos (CD, DvD, etc.) nt enviados por enlace via correo electronico o similares.
+En la entrega se Incluiran 3 copias de llaves e individualizadas, de elementos que contengan
+candado como nichos de agua u otros similares.
+IQUQUE
+Sortal N 13W
+Edifrio Cons igrial
+municipioiguigue.cl
+Sexio ['so - Tort Cerr?
+para. todos
+secoplac@mucpquiquc.cl
+SECOPLAC
+llustre
+Municipalidad
+de lquiqite
+SECRE'APIACUMUNA.DEP_ANIFCACQN
+0.6 MATERIALES
+Todos los productos y materiales que vayan a ser colocados en pbra deberan ser nuevos y
+cumplir con la especificacion mas exigente, en cuanto a calidad técnica y aspecto exterior.
+Todo al mobiliario urbano que aparece expresado en el proyecto y senaladas mediante un
+sfmbolo, o especificados en los planos de arquitectura o de especialidades, en Especificaciones
+Contratista.
+La I.T.O. rechazar todo aquel material que a su juicio no corresponda a lo especificado, y podra
+solicitar al Contratista la certificaci6n de la calidad de los materiales a colocar en obra.
+En caso que se especifique una marca de fabrica para un determinado material se entiende cormo
+una mencion referencial, el Contratista podra proponer el empleo de una marca de alternativa,
+altematlva debe sometarse oportunamente a canslderacion de la I.T.O. para su aprobacion 0
+quienes resolveran al respecto.
+0.7SUBCONTRATOSYMAQUINAR1A
+El Contratista suministrara todo el trabajo necesario para ejecutar este Contrato. Los
+subcontratistas que utilice deberan contar con el voB del Mandante, repreentado por la ITO, y
+formalizado por escrito. De todas forrnas, la responsabilidad de todos los trabajos sera del
+Contratista. No habra ninguna relacion de Contrato entre los subcontratistas y el Servlcio.
+El Contratista proveera y pagara todos los materiales, accesorios,herramientas, equipos,
+transporte y cualquier atra obra necesaria. Todos los materialeas que ingresen a la obra deberan
+ser de primera calidad y nuevos, Los equipos y hertamientas relacionados con la ejecucion de la
+obra podran ssr usados previamente, pera deberan someterse a inspeccion de la ITO antes de
+ponerlos en funcianamiento, si fuese necesario.
+Toda maquinaria pesada, ya sea estatica o mdvil, que el Contratista necesite usar en la ejecucion
+de los trabajos, usada o nueva, propia o arendada, debera contar con la autorizacion de la ITO
+pera ingresar a la faena. El Contratista sera el unico responsable de la buena mantencion de las
+equipos a su cargo.
+0.8EMPALMESPROVISORIOS
+Se consultan las instalaciones provisorias de electricidad y agua potable, necesarias para la
+construccion de la obra.Sus consurnos,asi como las instalaciones necesarias para estos efectos,
+seran cancelados por el Contratista.
+0.9 AUTORIZACIONES Y DERECHOS
+El contratista debera tramitar autorizaciones y derechas pertinentes para la ejecucion del proyecto
+en cuestion.Para tal etecto, deber proceder segun lo estipulado en la O.G.u.C. para
+equipamientos de tipo social en terminos de gestionar Pemisos de Instalacion de faenas, de
+obras provisorias, demolicion, ocupacion del espacio publico, desratizacion, cierre de calles, eto.
+entre otras obllgaciones que correspondan. Todos los gastos asociados a lo descrito deberan
+quedar insertos dentro de los Gastos Generales del proyecto.
+IQUIQUE
+Sorran N: 1.14
+municipioiquique.cl
+Erric: consisirrl
+Sexte Pisa - Tor'e Cor's
+para.todos
+sncratuni poiguj.e tl
+SECOPLAC
+lustre
+Municipalidad
+de iquique
+SECRETARIA CUMUNA- SL FLAH.F.CACIUN
+1.0 OBRAS PROVISORIAS
+1.1AUTORIZACIONESYPERMISOS
+1.1.1Pavimentaciones:
+La empresa contratista debera considerar realizar un proyecta de pavimentacion, el cuai debera
+contenplar todas las indicaciones de las laminas de pavimentos. baldosas tactiles, rutas
+acceslbles, rebajes de solera, accesos vehiculares, etc. que estan considerados por el mandante.
+La gestin del ingreso del proyecto, calicatas, mecanicas de suelo, correccion de observaciones
+de empezar los trabajos de la pavimentacion coespondientes.
+Lo anterior debera ser desarrallado segun planos de arquitectura referenciales.
+1.2ENSAYOSDEMATERIALES
+1.2.1 Ensayos requeridos:
+El contratista esta obligado a otorgar todas las facilidades necesarlas para la obtencion de
+muestras y testigos que la ITo requiera, para garantia del control de calidad de los trabajos yro
+materisles empleados y las ensayos de materiales exigidos, los que se encargaran a Laboratorios
+de Materialee reconocidos y autorizados por el Ministerio de Vivienda y Urbanismo. Se debera
+siempre adjuntar al finalizar la obra y en periodo de recepcion de la abra los certificados en original
+o copias que incluyan metodos de verificacion de legitirnidad.
+El costo de los ensayos sera con cargo a la Empresa Constructara, en el caso de materiales 
+sistermas prefabricados, se aceptaran certificados de calidad amitidos por el fabricante.
+Se daberan contemplar, como minimo los siguientes ensayes:
+Se consulta toma de muestra de homigon para ensayo a la resistencia a la compresion
+NCh1037.Of77 en:
+Fundacion (2 muestras)
+Radier (2 muestras)
+Acera (1 muestra)
+Se debera considerar, toma de densidad de la base estabilizada B.502.1 (MC-V8) (LNv 19)
+Fundacion (1 Toma de densidad) que conformara el radier de la plaza.
+Todos los materiales empleados en la obra seran de primera calidad y seran usados por primera
+vez. Sin perjulclo de lo ariterior, si a juicio de la ITO es procedente, este podra solicitar los ensayes
+que considere necesarios para evaluar la situacion en partidas que en apariencia pudiesen estar
+defectuosas. Para el caso de toma de testigos de hormigon Be debera contar con la aprobacion
+del ingeniero calculista o la ITo.
+El contratista debera enitregar metodologia de trabajo a la 1.TO con el fin de verificar un cortecta
+Plar de Aseguramiento de la Calidad (PAC).
+[QUIQUE
+Serano N" 13-1
+Ec ificio Car:siste:rlel
+municipioiquique.cl
+Stxt: Piso · Tarrc Ce'1o
+para todos
+Sacoplacit aric p ciuigur r.l
+SECOPLAC
+Ilustre
+Municpalidad
+de lqique
+SECAFTAFIA UOMUNA- LE PLAN.FIC&CITN
+1.3 INSTALACION DE FAENA:
+Las directrices mencionadas podran ser adaptadas de acuerdo al espacio disponible del terreno
+y las obras a desarrollar segun el proyecto.
+1.3.1 Habilitacion de recintos de obra:
+Antes del inicio de las faenas de construccion, deberan disponer en el terreno de algurnas
+construcciones e instalaciones provisorias minimas como:
+Bodegas de materiales, adecuadas a los volumenes del material a guardar.
+Panoles de herramientas.
+Baffos y servicios higienicos del personal.
+Comedores
+Vestidores
+Talieres y patio de armado de estructuras.
+Sector de acopio de aridos.
+Sector de acopio de aceros, maderas y placa de moldajes, protegido de la intemperie.
+Caseta de guardia.
+Oficlna para la inspeccion tecnica municipal.
+Los recintos destinados a cormedores tendran como minimo un metro cuadrado por cada usuario
+simultaneo. Seran de piso lavable, aireados e iluminados. Las mesas tendran cubierta lavable.
+Las cocinas y bodegas deberan ser higiénicas y lavables en pisos y muros; contaran con agua
+potable, fria y caliente; estaran conectados al sistema aprobado de alcantarillado y debera ser
+aprobado por la autoridad de Salud correspondiente.
+La instalacion de faenas debera contar con iluminacion exterior en los sactores de acceso.
+construcciones de la Instalacion de faenas, sectores en construccion y luces de perimetro de
+seguridad.
+1.3.2 Habilitacion electrica de faena:
+El pago de todos los consumos de energia electrica sera de cargo del Contratista hasta la
+recepcion provisoria sin observaciones de la obra y deberan ser presentados en cada Estado de
+Pago o cuando sea requerido por la ITO.
+debiendolas retirar al termino de las obras.
+1.3.3 Habilitacibr sanitaria de faena:
+El pago de todos los consumos de agua potable sera de cargo del Contratista hasta la recepcion
+provisoria sin observaciones de la obra y deberan ser presentados en cada Estado de Pago d
+cuando sea requerido por la ITQ.
+Sera obligacion ineludible del Contratista, dotar a la instalacion de faenas de servicios higienicos,
+incluidos duchas y vestidores, para el personal de lg obra, en cantidad y calidad de acuerdo a
+normas y para un confort aceptable, incluida el agua caliente en las duchas, durante la ejecucion
+de la obra.
+Para efectos de no podor conectarse al sistema de alcantarillado se debera contemplar como
+solucion sanitaria para sus trabajadores, el uso de banos quimicos, en la cantidad que exija la
+noma,de acuerdo al numero de personas contratadas.
+Serrano N" 134
+QUIQUE
+municipioiquique.cl
+Ec!ificiu Consistoral
+Scxto Piso + Torre Cerrs
+pauna todes
+secoplac@mu"icipiquique.cl
+SECOPLAC
+Ihustre
+Mundcipalldad
+de iqulque
+Se debera recolectar y eliminar la basura y desperdicios de todas los recintos y frentes de trabajo.
+mantenierido un estado sanitario de los espacias satisfactorio en todo momento.
+1.3.4 Cierros provisorios:
+La obra debera permanecer debidamente cerrada, mediante elementos opacos y resistentes,
+tales como placas de madera u otros. Na se admitiran cierros confeccionados en base a mallas
+u otros elementos similares. El ciere deber desarrollarse cumplienda con las exigencias
+municipales respecto al uso de las veredas y calzadas, acceso de materiales y extraccion de
+escombros. Sera de exclusiva responsabilidad del Contratista estas acciones.
+Para efectos de presupuesto, se debera realizar un cierro pravisorio en todo el perimetro de la
+propiedad, en estructura de madera con aastidor perimetral de madera de pino insigne de 2" x 4",.
+afianzado a pies derechos de pino insigne de 5" × 5" empotrados al terreno o similar y carrado
+mediante tableros compuestos de placa OsB de 122 × 244 cms, y 15 mm. de espesor. El cierra
+ira instalado en sentido vertical en todo el frente de la propiedad y parte posterior, pintado de color
+blanco por su cara exterior. La constructora debera velar por el buen estado de conservacion del
+cierro, reponiendose en caso que algun tramo sea desprendido.
+Se exigira que el cierre cuente con accesos controlados y resguardados mediante candado u
+1.3.5Letrero de obra 3 mt × 1,80 m:
+Sera instalado por la Empresa Constructora y su instalacion debera contar con la aprobacion del
+mandante, en cuanto a grafica, ubicacion, lamano y sistema constructivo.
+ustre
+Municipalidad
+de iquique
+CONSTRUCCION:
+SEDE PRIMERAS
+PIEDRASII
+Pi,AYA BLANCA / LAGUNA VEADE
+ASINFCPIAaO:WWWUUNCAPICKOUIOUFCI
+OBHAS QULTHANSIDHMAN
+CIJDAD QUE CRECE
+Esquema grafico tipo:
+[QUIQUE
+-?+. Fi..+i'++'hr?
+para udes
+llustre
+SECOPLAC
+Municipalidad
+de iquique
+SLCREIAP.A COMURA: LE PLANIF·GACICN
+Grafica y Tipografia Municipal: Entregado por el 1TO previa consulta_de la empresa
+coniratista y con aprobacion del Arquitecto para su instalacion.
+Su ubicacion sara en el frontis de la obra.
+Material: En vinilo autoadhesivo, con tintas solventadas con filtro UV (Garantla 3 anos).
+Alto: 3,00 metros
+Ancho : 1,80 metros
+Bastidor: Perfil cuadrado 40 × 40 × 1 mm.
+Plancha soporte grafico: Zinc 0.35 mm.
+previamente por el ITO y arquitecto proyectista. Se debera tener en cuenta que su fjacion debera
+ser segura para los peatones, ademas de que este letrero debera permanecer durante todo el
+tiempo del desarrollo de la obra.
+La distancia entre la superficie del terreno y la parte inferior del letrero es de 3,o m cormo minimo.
+La estructura debe tener tratamiento anticorrosivo. Es importante que el lugar de la instalacion
+medidas de seguridad.
+1.4 TRABAJOS PREV1OS:
+1.4.1 Retiros:
+Se procedera al retiro de todos los elementos que se encuentren en terreno y que interfieran a la
+ejecucion del proyecto. Se detallan su ubicacion en planirmetria, se especifican los sigulentes:
+1.4.1.1 Solera Tipo A perimetral por calle Diego Portales y Luis Cruz
+Martinez.
+1.4.1.2 Solera tipo C contencion de adoquines.
+1.4.1.3 Piedras jardineras.
+1.4.1.4 Areas verdes.
+1.4.1.5 Acera radier hormigon por calle Diego Portales.
+1.4.1.6 Radier de hormigon pasillo en medio de terreno.
+1.4.1.7 Pasillo adoquines.
+1.4.1.8 Baldosa podotactil.
+1.4.1.9 Manolito hormigon.
+1.4.1.10
+Estructura hormigon armado con jardinera.
+1.4.1.11
+Especie vegetal seca.
+1.4.1.12
+Postes de iluminacion.
+todas las existentes en su misma ubicacion.
+1.4.2 Transporte a botadero:
+A modo general, los elementos de equipamiento urbano como bancas basureros,_juegos
+infantiles y maquinas de ejercicia deberan ser consultados al ITo, siendo posible el retiro final por
+parte de la Municipalidad. E1 resto de elementos retirados de hornigon como soleras, radieres.
+etc. iran a botadero.
+Todos los escambros que resulten de los trabajos previos y de construccion an general deberan
+ser levados a botadero autorizado. No se deben acumular escombros en area de trabajo, porlo
+anterior se debera realizar el retiro de stos cada vez qug sea necesario, con un maximo de
+tiempo de acopio de 48 horas.
+IQUIQUE
+Scrras N" 134
+municipioiquique.cl
+Edficio Consis1or:I
+Sextc: Piso - Tarrc Carr?
+paru todos
+stcoplacrr Jricp oiquiq
+SECOPLAC
+llustre
+Municipalidad
+SFLHFIAHIA LOMUNAL LE PLANIF.CACIOY
+de lquique
+1.4.3 Trazados y Replanteo
+El contratista debe proceder a materializar en forma rigida y permanente los puntos y lineas
+necasarias para un adecuado trazado en el terreno de las obras que fueran necesarias.
+nuevos. Los trazados deberarn ejecutarse en estacado da madera. Debera efectuarse el replanteo
+necesario en relacion a los ejes y niveles indicados en los planos generales de arquitectura junto
+con ingenieria. Esta etapa debera ser notificada al ITO para la revision par parte del arquitecto
+lasetapasposterioresdela construccidn.
+20 OBRA GRUESA
+Este proyecto consiste principalmente en los pavimentos de nuevos radieres o veredas, para las
+Instalaciones de diversos elementos y equipamiento.
+electrica, riego. paisajismo y todas las que involucre esta obra y las presentes Especificaciones
+Tecnicas.
+Todos los trabajos de hormigon se haran segun los planos de fundaciones y estructura
+elaborados para estos proyectos., lo mismo para las estructuras metalicas. Sin embargo, el
+Contratista debera revisar pernanentemente la fiel correspondencia de estas con los planos de
+Arquitectura generales y de detalles correspondientes. Todo detalle no indicado en los planos 
+que no se menciona en estas Especificaciones Tecnicas debera ser ejecutado segun las Normas
+Chilenas.
+En todo caso, si faltara algun plano de plantas, elevaciones de ejes, o detalles de importancia,
+debera ser solicitado oportunamente por el Contratista (aclaraciones). De no ser asi, la empresa
+asumira los costos de las soluciones que emitira el tngeniero Calculista o el Arquitecto, como
+igualmente eventuales discrepancias que pudieran aparecer entre los distintos artecedentes del
+Proyecto.
+El Contratista gera responsable die coordinar y ejecutar todas las pasadas necesarias que
+permitan la instalacion de canalizaciones de agua, riego, electricas u otras de acuerdo a los
+proyectos correspondientes. Lo anterior, para evitar picados posteriores en elementos de
+hormigon.
+En caso de discrepancla entre las Especificaciones Técnicas y los planos, tendran predominancia
+los sagundos. Si la discrepancia es entre los planos de Calcula Estructural y los planos de
+Arquitectura, prevaleceran Jos de Arquitectura; y dentro de estos, prevalecen los planos de
+proyectista a traves de la I.T.0.
+2.1BASE PAVIMENTOS.
+2.1.1Solera perimetral tipo A:
+En las zonas definidas en planos de proyecto de arquitectura se instalara solerea de hormigon tipo
+"A" Recta de 1000 mm (MINVU).
+La partida de soleras dabera cumplir con las siguientes especificaciones:
+Dimensiones:
+Las indicadas en el Codigo Normas y especificaciones Tecnicas de Construccion del MINvU.
+[QUIQLE
+Sorrano N 134
+Edificao Cons slcrial
+muricipioiqulque.cl
+Sexlo [".so - Torre Cer"o
+f@X
+para todos
+storla munic poiqque.cl
+SECOPLAC
+ustre
+M!ncipalidad
+de Iquique
+SECRETAPIA :SMUNA-TE F_ANIE CAEIC
+Calidad del hormigon:
+La solera sera confeccionada mediante una dosificacion que permita obtener un hormigon del
+tipo 350 Nch., el cual debera ser vibrado con la frecuencia y tiempo necesario para que resulte
+un producto de primera calidad.
+Requisitos de las.soleras:
+Las soleras se clasifican segun en sus dimensiones, en los tipos A, B y C. las cuales se indican
+a continuacion.
+Dimensiones de las soleras:
+Tolerencl
+(mm)
+(m)
+50-100*
+Longitud
+30
+10
+Bose
+12
+16
+Ancho
+Supertor
+12
+Rebale
+12
+15
+15
+Ensayes:
+Debara considerarse los valores limites y los ensayos que a continuacidn se indican:
+Carga de flexion segun el tlpo de solera (kn)
+Tipo de solera
+31
+Valorpromedio
+17
+25
+20
+Valor [ndividual minimo
+14
+Resistencia al impacto, segun tipo de solera (cm)
+Tipo de salera
+80
+09
+Valor promedio
+45
+70
+52
+Valorindiuldual mlnimo
+40
+[QUIQUE
+Serrano Ne 13d
+municipioiquique.cl
+Edificio Cansisterial
+Sexto Piso - Torre Cerro
+para todos
+secoplac.nmuniciploiquigue.cl
+SECOPLAC
+lustre
+Municipalidad
+de lquique
+SECFEIAIA CUMURAL CF PIANIFICAGICN
+Colocacion de soleras prefabricadas de hormigon:
+Preparacidn del terreno:
+Se debe verificar que la base de fundacion se obtenga excavando una zanja en el terteno natural
+o en la sub-base granular compactada.
+Se sugiere que la excavacion tenga un ancho minimo de 35 cm para las soleras tipo A y de 30
+cm para las de tipo B y C. Be requiere que la profundldad sea la necesaria para que la cara
+superior de las soleras quede al nivel espacificado en los planos.
+El fondo de la excavacion requiere presentar una superficie campactada, pareja y limpia de
+materiales sueltos, basuras, escombros, materia orgarica o restos vegetales.
+Colocacion:
+Es recomendable que se humedezca ligeramente la excavacion y colocar sobre ella una capa de
+hormigon de 170 kg de cemento por m y 10 cm de espesor minimo.
+de la calzada, o la que indique los planos.
+Se debe verificar los niveles y pendientes, tomando en consideracion que la arista formada por
+la interseccion de la cara fnclinada y la cara vertical coincidan con l borde superior de la cakada.
+Las soleras se deben colocar lo mas ajustada posible entre sf, con una separacion maxima de 5
+mm.
+Las juntas se rellenan con un mortero de cemento y arena fina en proporcion 1:4 en peso.
+Se recomienda rellenar el respaldo de las soleras con el mismo hormigon establecido para la
+base, hasta una altura minina de "5 cm, medida desde la parte inferior de la solera.
+El hormigon y el mortero de junta requieren mantenerse humedos durante 5 dias minimo.
+Una vez que el hormigon base y de respaldo y el martero de juntas haya endurecido lo suficiente,
+puede utilizar el mismo material obtenido de las excavaciones, siempre que este libre de materia
+organica, basuras o bolones.
+Alineamiento, Pendiente y tolerancias de colocacion:
+calzada ola que senale el proyecto.
+Se debe verficar el alineamierto y nivelacion de las soleras mediante una regla de longitud
+aproximadamente igual al doble del largo de los elementos utilizados.
+La separacion maxima aceptable entre las soleras y la regla, ya sea en la cara superior o en la
+cara inclinada, puede ser de 4 mm.
+Se debera tener presente las partes indicadas en planos de arquitectura y de pavimentacion las
+partes donde la solera va rebajada para los accesos vehiculares.
+2.1.2 Solerita en jardineras tipo C:
+IQUIQUE
+Seano N" 134
+Er ficei Cer sistinal
+municipioiquique.cl
+Sexlo Piso - Tarrc Cc'ro
+para todos
+secoplacmuric picig Jique ck
+SECOPLAC
+ustre
+Municipalidad
+de lquique
+SFPETAFISCOMUNALLEPLAN-CACH
+Seguir lo indicado en punto 2.1.2. Se consulta la instalacion de solerila tipo C redonda como
+elemento de contencion de jardinera exlstente donde previarmente existlan una delimitacion con
+piedras.
+2.1.3 Acera perimetral peatonal y vehicular:
+2.1.3.1 Excavaciones y movimientos de tierra e = 0,27 m:
+Alcance:
+El Cantratista ejecutara las excavaciones menores que pudieran ser necesarias de acuerdo a
+planos de calculo, detalles especiales Y planos de Arquitectura. Sera responsabilidad del
+Contratista la revision del mejoramiento de suolos existente.
+Se incluye tambien las excavaciones necesarias para el tendido de cafierias ymatrices exteriores
+de los distintos serviciog.
+Ejecucion:
+Las excavaciones se ejecutaran siguiendo los perfiles y las indicaciones senaladas en el proyecto
+de Calculo. Se extraeran las rocas y material petreo suelto, el fondo sera horizontal y plano. Seran
+ejecutadas con maquinaria pesada,para lo cual se realizara todoslos caminos,rampas y accesos
+necesarios. Se debera contar con senaleros para dirigir las maniobras, las que deberar ser
+indicadas y senalizadas en el terreno.
+La maquinaria pesada no debe acercarse al borde de la excavacion. Se debe proteger sus bordes
+con baranda solida, e indicar la vereda peatonal separada del transito de los vehiculos. Se
+revisara periodicamente los bordes y las paredes de la excavacion para detectar la presencia de
+grietas  materiales sueltos, y proceder a su entibacion o mejoramientos, de acuerdo a
+indicaciones de la ITO.
+Las excavaciones deban tener accesos a traves de escaleras confeccionadas de acuerdo a
+noma y bien apoyadas.
+El Contratista tomara todas las precauciones tecnicas conducentes a evitar desmoronamientos
+laterales que pudieren significar peligro para ol personal de obra o terceros; en particular se
+etcetera.
+Todas las excavaciones mayores a 8o cms. deban contar con pasarelas peatonales solidas, con
+barandas y rodapies. Estas excavaciones deberan realizarse a mano (pala) o con maquina, segun
+condiciones del suelo y recomendacianes de las eBpecificaciones tecnicas de Mecanica de
+Sualos.
+Los bordes exteriores de las excavaclones deberan delimitarse perfectamente, mediante estacas,
+jalones y lineas de demarcacion de sus contomos. En las proximidades de toda excavacion
+destinada a fundar estructuras o instalar alcantarillas, se coiocara a lo menos una estaca de
+referencia altimetrica (P.R.).
+Seré de responsabilidad del Contratista conservar en todo momenta los P.R. hasta la recepcion
+de los trabajos. La ITO podra ordenar la paralizacion de las excavaciones que no cuenten con
+estas referencias.
+IQUIQUE
+Srano Nt 13.1
+municipioiquique.cl
+=t:ifirh Corissteral
+Sexir Piso - Torre Ce'i0
+f@X
+para todos
+secnpac mur: ar: qua.le.cl
+SECOPLAC
+ustre
+Municipalidad
+SCREIARIA CUMUNAL OE PLAN FISAIUN
+de Iquique
+2.1.3.2Extraccion de escombros:
+Alcances:
+Los escombros.provenientes de las posibles excavacianeg menores y aseo del terreno, deberan
+ser retirados al mas breve tiempo, todo ello con v'B de la I.T.O. No se permitira por ningun
+motivo la acumulacion de ellos.
+Se incluye el uso de todos los elementos y precauciones para reducir al minimo la generacion de
+polvo, barro y, en general, la contaminacion producida por esta actividad.
+Ejecucion:
+Los escombras, provenientes tanto de las excavaciones como de las eventuales demoliclones y
+que no se consideren aprovechables para la ejecucion de bases de paisajismo, de acuerdo a
+indicaciones de la ITO y el arquitecto de la obra, deberan ser retirados al mas breve plazo, ya que
+no se permitira la acumulacion de ellas.
+Se incluye el uso de todos los elementos y precauciones para reducir al minimo la generacion de
+polvo, bao y, en general, la contaminacion producida por esta actividad. Los escombros se
+retiraran en camiones cor tolva cubierta con lona, a los cuales, de ser necesario, se les debera
+lavar las ruedas antes de salir.
+2.1.3.3 Base granular e = 15 cm
+Se considera la colocacion de un relleno, previo a la definicion de los niveles y cotas de proyecto,
+de acuerdo a planos. Este relleno se debe realizar con una base con bajo contenido de salinidad
+estar libre de escombros, materias organicas o basuras de cualquier tipo. La base se colocara
+D.R.>=75% o al 95% de la D.M.C.S. obtenida del proctor mod (NCh 1534-2) indicado por planos
+y especificaciones tecnicas de ingenieria.
+Se deberan seguir todas las indicaciones de planos de ingenieria y pavimentacion.
+2.1.3.4 Palietileno:
+Antes del vaciado del hormigon se consulta la instalacion de una barrera de humedad, esta
+consistira en una membrana de polietilano de o,2 mrn de espesor. Estas laminas iran con
+traslapes de al menos 40 cm e ira en todas las caras del hormigon en contacta directo con la base
+compactada.
+2.1.3.5 Radier de hormigon pigmentado calor cafe G-25 e = 0,12 m:
+Para la ejecucion de esta partida, se considera como rninimo la utilizacion de hormigones tipo
+G252010.con resistencia minima G25 de resistencia a cornpresion 28 dlas fc >= 25 MPa, con
+un 90% de grado confiabilidad, y espesor de 12 cantimetros.
+Ei diseno de mezcla para la confeccion de los hormigones pigmentados debera fabricarse con
+cemento de materias primas de arigen nacional, que parmitan mantener la hamogeneidad durante
+la faena. Ademas, todos los hormigones de esta partida seran fabricadas con cementos de alta
+gestion de calidad.
+[QUIQUE
+Serrano N 134
+Ecificio Carsistcriel
+municipioiquique.cl
+Sexts Fiso - Tor'e Cerr?
+para todos
+5ocop acnuric.p eiquiqi.c cl
+SECOPLAC
+Hustre
+Municipalidad
+de lquiqu?
+SECH'AHIA UMLHA. DE PI.ZNIF·CACIUN
+Antes de la aplicacion de cualquier partida hormigones pigmentados, la Constructora debera
+aprobacion de la misma mediante Libro de Obras.
+Modaies:
+Se debera verificar que los modajes o confinarnientos de borde de los pavimentos presenten sus
+de agente desmoldante en minimo espesor, para obtener un buen aspecto superficial final. Todo
+defecto del molde sera reflejado en la superficie del hormigon.
+cada faena. Ast como verificar que sean resistentes y lo suficientermente rigidos, para no
+deformarse por efecto de la colocacion del hormigon y ejecucion del pavimento.
+Consideraciones durante las taenas previas de hornigonado:
+El contratista que ejecutara la faena debera estar certificado por la ompresa que provee los
+campatibilidad de ellos, Ademas, debera acreditar que ha ejecutado obras de rango similar en el
+pais.
+Para esta faena solo se aceptan productos que cuenten con ficha tecnica, ficha de seguridad y
+certificado de calidad para asegurar la calidad del esquema.
+Las jarnadas de hormigonado deben ser programadas a primera hora de la manana de tal manera
+de aprovechar las condiciores cllmaticas favorables del punto de vista de temperatura y humedad
+ambiental. En condiciones desfavorables se deberan tener en cuenta barreras para el viento.
+aspersores para bajar la temperatura y disponor de elementos para producir sombra sobre la
+superficie.
+Consideraciones durante la cokocacion:
+Se puede colocar el homigon manualmente a traves de descarga directa.
+En el caso de utilizar bomba, se racomienda colocar con precaucion, ya que la lechada cementlcia
+del mismo. El uso de bomba permite que la colacacion sea lo mas limpia posible, y no se
+produzcan acumulaciones de material en algunos sectores del sitio de colocacion.
+secado anticipado de la mezcla y por consecuencia, la adicion de agua en obra durante la
+terminacion. Se debera tener especial preocupacion en dimensionar la cuadrlla con relacion al
+tamano de la superficie a colocar y al cono solicitado.
+Cansideraciones durante la terminacion:
+Se prohibe el uso de agua para ayudar a la terminacion, ya que ello alteraria gravemente la
+tonalidad final, ademas de debilitar la capa superficial del hormigon.
+Todas las bordes de termino o union de los hormigones de esta partida deberan ser teminados
+con platacho de canto redondeado del mismo material de las herramientas utilizadas para el
+alisado de la superficie.
+[QUIQUE
+Serano Nt 134
+municipioiquique.cl
+Et!if co Cun: stc: al
+Sexic Fisu - Tcrre Cerra
+paura.todos
+sccopac@rnumripicquque.cl
+SECOPLAC
+Hlustre
+Municipalidad
+SECRETARIA CJMUNAL CE PLAN F'CAGIOY
+de Iquique
+Se debe contar con buena iluminacion en el recinto para facilitar el manitoreo de la tonalidad final
+en tado momento.
+La terminacion puede ser manual o mecanica.
+Terminacion Manual: Para la terminacion manual se debera terer en cuenta, la utilizacion
+de herrarnientas que sean del mismo material en contacto con la superficie de tarminacion,
+de manera de no producir cambios de tonalidad. Se prohibe anadir agua a las
+herramlentas que se utilizaran para el acabado (escoba, cepillo, llana metalica u otros).
+superficie y no pravocar deslizamientos.
+Consideraciones para.el tratamiento de juntas:
+Se debe tener daramente identificados los sectores donde iran los cortes, de tal manera de evitar
+grietas por atraso de este proceso (la materializacion del corte se efectua entre las 6 y 20 horas
+de esta.
+Los pafios maximos de corte y dilataciones, sera conforme lo indique las especificaciones del
+fabricante. No obstante, se indica que los panios no deben exceder los 2.5x2.5 rmetras sin cortes
+para espesores minimos de 10 crn, considerando zonas lo mas cuadrado pasible. y asl evitar
+fisuracion por retraccion hidraulica.
+Como normna general el trazado de cortes no debera producir elementos que tengan una
+dimension menar a 15 cms o que terminen en angulos menores a 25°.
+La profundldad del corte debe ser a lo menos 1/3 del espesor del piso, y se debe realizar al
+momento en que se pueda colocar una maquina de corte sin dejar huellas (tipo SoffCut,
+equivalente tecnico sirmilar o superior) o de manera tradlclonal.
+instalacion de un cordon de respaldo de celda cerrada y un sello de poliuretano.
+FIESTA
+Referancia, cataiogo carte FULLCOLORde MELONcolorFIESTA, equivalente tecnico similara
+suparior. Se identitica como color cafe en pianos de arquitectura.
+2.1.3.6 Radier de hormigon pigmentado colar rojo G-25 e = 0,12 m:
+Seguir lo indicado en Item 2.1.3.5
+[QUQUE
+Srrrano N 134
+Editicio Consisto'ea!
+municipioiquique.cl
+Sexto Piso - Torre Cerre
+para todos
+SECOPLAC
+Ilustre
+Municipalidad
+De lquiqie
+SECAETARI4 COMUNAL DE PLANIE CACON
+CHEROKEE
+Referencis, catalogo carta FULLCOLOR de MELON color CHEROKEE RED, equivalente tecnico
+simitar o superior. Se identifica camo coforrojo an planos de arquitectura.
+2.1.4 Radier interior y platafarma para caucho y Juegos:
+2.1.4.1 Excavaciones y movimientos de tierra  = 0 .25 m:
+Seguir lo indicado en ftem 2.1.3.1.
+2.1.4.2 Extraccion de ascombros:
+Seguir lo indicado en item 2.1.3.2.
+2.1.4.3 Base granular e = 15 cm
+Seguir lo indicado en item 2.1.3.3.
+2.1.4.4 Polietieno:
+Seguir lo indicado en item 2.1.3.4.
+2.1.4.5 Radier de hormigon pigmentado color crema G-25 e = 0,12 m:
+Seguir lo indicado en item 2.1.3.5
+Referencia,cateiogo certa FULLCOLORde MELON color SOMBRA, oquivafente tecnico similar
+o superior.Se identifica como calorcrame en planosde arguiteclura.
+2.1.4.6 Radier de hormigon pigmentado color rojo G-25 e = 0,12 m:
+Seguir lo indicado en item 2.1.3.9.
+IQUIQUE
+Serrano N: 134
+municipioiquique.c!
+Edificio Consistorial
+Sexlc Piso - Torre Cera
+para todos
+secoplac@municipioiquique.cl
+SECOPLAC
+llustre
+Municipalidad
+de lquique
+SECAETARIA GJMUNAL UE PLAN FICAIION
+2.1.5 Franja radier estampado:
+2.1.5.1 Excavaciones y movimientos de tierra e = 0,25 m:
+Seguir lo indicado en item 2.1.3.1.
+2.1.5.2 Extraccion de escombros:
+Seguir lo indicado en item 2.1.3.2.
+2.1.5.3 Base granular e = 15 cm
+Seguir lo indicado en Iitem 2.1.3.3.
+2.1.5.4 Polietileno:
+Seguir lo irdicada er item 2.1.3.4.
+2.1.5.5 Radier de hormigon pigmentado color crema G-25 e = 0,10 m:
+Seguir lo indicado en iterm 2.1.4.5.
+Consideraciones para el proceso de estampado y curado:
+estampado. No se debe adicionar agua en la superficie ya que provocaria cambios en el color
+final y debilidad en a capa superior del hormigon.
+Para el alisado se debera tener en cuenta la utilizacion de herramientas que sean del mismo
+material en contacto con la superficie de tarminacion, de manera de no producir cambios de
+tonalidad. Se prohibe anadir agua a las heramientas de alisado.
+Todos los bordes de temmino o union de las hormigones de esta partida deberan ser terminados
+cori platacho de canto redondeado del mismo material de las herramientas utilizadas para el
+alisado de la superficie.
+Se podran utilizar desmoldantes en povo (tipo_ Increte Antique Release, o equivalente tecnica
+similar o superior) o Jiquidos (tipo Increte Liquid Release o equivalente tecnico similar o superior).
+Desmaldante en polvo (tipo Increte Antique Release o equivalente tecnico similar o
+superiorj:
+Proceso: Proceda a espolvorear el desmoldante en las dosis indicadas por el fabricante
+una vez que el hormigon haya eliminado el agua superficial, luego continue con el proceso
+de estampado segun las Indicaciones del proveedor. Este povo desmoldante actuara a
+su vez como una membrana de curado, avitando la perdida de humedad del hormigon.
+Una vez terminada la etapa de estampado, considerar un tiempo de curado de al menos 24 horas
+antes de habilitar a cualquier tipo de trafico. Retire el exceso de desmoldante mediante barrido y
+lavado de la superficie con agua potable y limpia. Se pueden utilizar limpiadores neutros.
+Desmoldante Iquido (tipo Increte Liquid Release o equivalente técnico sirmilar o superior):
+IQUQUE
+Scrrano N'134
+Edificio Cons sirrial
+municipioiquique.cl
+Se:x1o F'iso - Torre Ce'ro
+partu todes
+secoplac@murniciquique.cl
+SECOPLAC
+Ilustre
+Municipalldad
+de iqulque
+r... .+.. -I!.+ I..
+Proceso: Aplique el producto sobre las moldes segun las indicaciones del proveedor,
+luego continue con el proceso de estampado segun las indicaciones del proveedor
+correspondiente. Repita el proceso cada vez que sea necesario para asegurar que el
+hormigon no se adhiera en el molde a utilizar.
+Se debe contar con buena iluminacion en el recinto para facilitar el monitoreo de la tonalidad final
+en todo momento.
+En ningun caso durante el periodo de curado el hormigon debe sufrir cargas, impactos y
+vibraciones que puedan dafiar el hormigon o el material de curado.
+Se debe realizar el mismo procedimiento en todos los pavimentos estampados para evitar
+cambios de tonalidad.Aplicar el producto segun la dosis recomendada por el fabricante.
+Consideraciones para la terminacion:
+Una vez terminada la colocacion se debera aplicar en la superficie selladores Incoloros filmogenos
+matte (tipo Increte Clear Seal, o equivalente tecnico similar o superior) para asegurar la
+mantencion del color sin suciedad. Dicho compuesto debe ser compatible con los pigmentos
+utilizados de manera de no generar cambios de tonalidad. Para su aplicacion se debera seguir
+las instrucciones del fabricante.
+Para el estampado, se debera proceder con una figura y dimensiones asimilando un adocreto tipo
+Europa con las siguientes medidas:
+_iescracior': Adocreto Europa
+L= 220 mm
+A = 107 mm
+pigmentado y la figura del estampado, la que sera exhibida al arquitecto e ITO, para su visto
+bueno y luego aprobar la instalacion de todo el sector de estampado.
+2.1.6Piso panel podotactil alerta 40x40:
+Se consulta la instalacion de paneles podotactiles de material fobra de vidro polimero, tipo Minvu
+0 color amarillo de medidas 40x40.
+IQUIQUE
+munic pioiquique.cl
+para. tudos
+SECOPLAC
+Ilustre
+Municipaldad
+de iqinque
+SECRETAAIA COMUNAL DE PLANIFICACION
+Estos paneles serdn pegados sobre el pavimonto de homigon de radierde las veredas  segun
+se indica en planos de arquitectura.
+Los paneles deberan cumplr con lo que se indica en el Decreto Supremo Ds N° 5o del MINVU y
+Ordenanza General de Urbanismo y Construccion (OGUC).
+Referencia, piso podotactil panef alerta tipo ADA SOLUTIONS iNC,o equivalente fecnico similar
+o superior.
+2.1.7Palmeta podotacil direaccional:
+Se consulta la instalacion de palmeta de poliurotano protegido contra rayos Uv. Instalacion con
+adhesivo,color amarilo. Suparficie con textura punteada para mayor resistencia al deslizamiento.
+Con caracteristicas tactil lineal circuito no videntes:
+Referancie,pameta podotacti dineccionai RadiMat Amarilo 3x4 SKu: HC-0000533 de
+Lorenzini, o equivalente tecnico simnilaro suparior.
+[QUIQUE
+Serrano N' 134
+Edificio Consistcrial
+municipioiquique.cl
+Sexlo Piso - Torre Cerro
+f@Xe
+pora todos
+secoplac@munic.piciquique.cl
+SECOPLAC
+lustre
+Municipalidad
+de lquique
+2.1.8 Barra podotactil direccional:
+Se consulta la inistalacion de barras alerta o guia sobre el pavimento, anclados y adheridos con
+pegamentoepoxico.
+Tamano: 280 × 35× 25 ×4,5mm
+Color: Acero 316
+Referencia,Bara Podotactit Adhesiva 3Mde BAUACCESiBiLiDAD,oequivafentetecnico
+simiar o superior.
+2.1.9 Palmetas de caucho:
+Se consulta la instalacion de palmetas de caucho sobre radier de plataforna de juegos y toldo.
+El espesor final que debera quedar a nivel de la franja de radier exterior es de 50 mm. Esto se
+lograra mediante 2 capas. una de base de 25 mm de caucho negro y otra de 25 mm de caucho
+de color.
+2.1.9.1 Caucho negro:
+Las palmetas deberan tener las siguientes caracteristicas:
+Dimensiones 50x50 cm
+Peso 5 kg
+Espesoresde25mm
+Color base: negro con nervaduras para facilitar drenaje y escurrimiento de agua
+Capacidad de elongacion 72%
+Plasticidad 45% al impacto vartical
+Comportamiento al fuego, Clase I
+Antideslizante
+Resietencia a la abrasion 193.32+-9.09 mma
+Tolerancia a contraccion y dilatacion +-10 mm.
+Para la instalacion se deberan seguir tadas las indicaciones del fabricante.
+[QUQUE
+Sune N 134
+municipioiquque.cl
+Eilie Cn stll
+Srxt: Flso - lc're Uer.
+para todos
+SECOPLAC
+Ilustre
+Municipalidad
+de iquique
+BECACTAAIA CCMUNAL CE PLAN
+Palmeta de caucho RuBTEC cofornegro,oequivalente fecnico simitara superior.
+2.1.9.2 Caucho color naranjo:
+Seguir lo indicado en punto 2.1.9.1
+Pairmeta de caucho RuBTEC color naranjo, o quivalente tecnico simitarD superior.
+Cualquier modificacion a los colores debera ser consultada al arquitecto y autorizada tanto por el
+ITO como el arquitecto en el Libro de Obras.
+2.1.9.3 Caucho color amarillo ocre:
+Seguir lo indicado en punto 2.1.9.1
+Paimeta de caucho RUBTEC coior amarillo ocre, squivalente tecnico simitar o superior.
+Cualquier modificaclon a los colores debara ser consultada al arquitecto y autorizada tanto por el
+ITO como el arquitecto en el Libro de Obras.
+2.1.9.4 Caucho color arena:
+Seguir lo indicado en punta 2.1.9.1
+Paimeta de caucho RUBTEC colorarena, equivalente tecnico simifaro superior.
+IQUIQUE
+Srrar N' 134
+Er'firws Cons sttflia
+municipioiquique.cl
+Stxte: Pis++ - Torro Cit:'r!
+para twodos
+coplaciemJ p c cu aule.r
+SECOPLAC
+lustre
+Municipalidad
+de lauiqire
+SECRE-ASIA CUMUHA. CE FLANI" CACION
+Cualquier modificacion a los colores debera ser consultada al arquitecto y autorizada'tanto por el
+ITO como el arquitecto en el Libro de Obras.
+2.2 OBRAS COMPLEMENTARIAS:
+2.2.1 Toldo rectangular 7,5 x 6,5:
+de altura 4.50m Debera llevar los siguientes elementos:
+2.2.1.1 Suministro de Poyo de hormigon, canastilo, tubos metalicos, tela.
+tensores y accesorios:
+Poyos de hornigon y canastilla:
+Para fundaciones de tubos metalicos. Se componen de un canastllo y poyo de hormigon G-25
+de medidas 1.0 m × 1,0 m × 1,0 m. Se deberan Begulr todas las indicaciones recomendadas del
+fabricante de lbe toldos para su correcta instalacion y funcionamiento.
+Tubos metalicos:
+Tubos de 6* de diametro, fabricados en acero AsTM A-53 de peril redondo con 6,02 mm de
+adicionalmente con 4 pletinas triangulares para entregar mayor rigidez.Se debera tener en cuenta
+que este elemento de poste debera quedar con una inclinacion de 8 respecto a radier de
+hormigon para tensado de la tela. La attura totai del poste sera ce 4,8o mts para entregar una
+altura util de 4,50 m.
+Color codigo RAL 1033.
+Tela:
+Se consulta la instalacion de tela fabricada a partir de monofilamento de cirntas de polietileno de
+alta densidad (HDPE) con bloqueo de rayos UV sobre 90%. Debera poseer las siguientes
+caracteristicas:
+desgarres yro roturas.
+Argolla de acero inoxidable tipo "D'en cada punta pars conectar a sistema de tension.
+Con alta reslstencia al desgarre.
+Con porosidad que permita la salida del aire caliente hacia arriba, reduciendo la
+temperatura debajo del toldo.
+Sin absorcion a la humedad.
+Garantia 10 anos (por danos producto de rayos UV)
+Certificaciones: Oeko-Tex y Greenguard.
+Color: Savanna, previa consulta al arquitecto proyectista.
+QUQUE
+Serrano N 134
+municipioiquique.cl
+Ediicio Cor sislkemal
+Sexto Fisu - Torre Cerrs
+pana. todus
+sccoolacmur picigJiauc cl
+SECOPLAC
+Iustre
+Muwicipalidad
+de iquique
+SECRETARIA COMUNAL DE PLANIFICACICN
+Imagen referencial de toidos instalados.
+Savanna
+UV: 92.3%
+sombra: 80.1%
+Cofarde referencia para tela de foldos tipo DUALSHADEde URBAN PLAY, o equivalante
+técnico simllar a stuperlor.
+Tensores:
+De acero inoxidable, con ajuste manual.
+2.2.1.2 Instalacion:
+Segin las recomendaclones del fabricante.
+3.0 TERMINACIONES
+3.1 REVESTIMIENTOS:
+3.1.1 Pintura:
+3.1.1.1 Pintura acrllica para Boleras tipo A perimetral:
+Se consulta la aplicacion de pintura fabricada en resinas acrilicas en base solvente con perlas
+incorporadas (reflectante). fomulado especialmente para demarcacianes horizontales sobre
+concreto y asfaltos.
+IQUIQUE
+Serrano N'134
+Edificio Consisteral
+municipibiquique.c!
+Sexr Piso : Tarre Ccrro
+f@X0
+para todos
+secoplac@municipioiquque.cl
+SECOPLAC
+Iustre
+Municipalidad
+de lquiqie
+SFCAETAFIA COMUNAL CE PLAN FICAGIOY
+Se pintaran todas las soleras perimetrales tipo A en color amaillo RAL 1003.
+Ceresita
+Bemarcadion ya
+Referencia, Pintura Acritica Demarcacion Vialde Ceresita,oequivalentetecnico similaro
+superior.
+4.0INSTALAC1ONES
+4.1 INSTALACIONES ELECTRICAS.
+Se incluira las obras cofrespondientes a alumbrado, de acuerdo al proyecto y especificaciones
+tecnicas de la especialidad y Normas y Reglarnentoe vigentes. El diseno y ejecucion de este
+electricas infomativas.
+El proyecto incluye la elaboracion del diseno (planos. especificaciones tecnicas, etc.).
+presentacion y la obtencion de las aprobaciones respectivas, asi como su ejecucion. Sera
+responsabilidad del oferente realizar oportunamente los tramites relacionados con la empresa de
+la docurmentacion axigida por SEC.
+ITO y arquitecto previo a su instalacion para aprobacion y posterior ejecucion.
+4.1.1Suministro  instalacion empalme electrico:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planos infornativos, Normas.
+Reglamento vigentes y Especiticaciones del Proyecto de la Especialidad.
+4.1.2Suministro e instalacion tablero lectrico:
+Se ejecutara estrictamente de acuerdo al proyecto corespondlente, planos informativos, Nomas.
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.1.3 Suministro e instalacion canalizado electrico:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planos informativos, Normas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.1.4Suministro e instalacion cableado electrico:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planos informativos, Nommas,
+Reglamento vigentes y Especificaciones del Proyecto de le Especialidad.
+[QUQUE
+SrrAr N' 134
+municipioiquique.cl
+Ecificio Cons slt'l
+Sexlo Piso - To're Cerr?
+para tudos
+secop ac:municipioiquque.cl
+SECOPLAC
+llustre
+Municipalidad
+de iquique
+STCHEIAHIA COMUNA- CE PLANIFICACICN
+4.1.5Suministro e instalacion camaras electricas:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planos informativos, Nomas,
+Reaglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.1.6Retiro postacion y equipos de iluminacion existenites:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente. planos informativos, Nomas,
+Reglamernto vigentes y Espacificaciones del Proyecto de la Especialidad.
+4.1.7Surministro e instalacion equipos de ituminacion:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planos informativas, Normas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.1.8 Surninistro e instalacion postacion.
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente,planos infomativos, Nomas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialldad.
+4.1.9Suministro e instalaclon puesta a tierra da servicio y protecclon:
+Se ejacutara estrictamente de acuerdo al proyecto correspondiente,planos informativos, Normas
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.1.10 Presentacion $.E.C. y tramites ermpresa distribuidora:
+Se ejecutara estrictamente de acuerdo al proyecto carespondiente, planos informatlvos, Normas.
+Reglamento vigentes y Especificaclones del Proyecto de la Especialidad.
+4.2 INSTALACIONES DE RIEGO TECNIFICADO:
+Se incluira las obras carrespondientes al sistema de riego de acuerdo al proyecto y
+ejecucion de aste proyecto sera desarrollado por el' Contratista. Se adjuntan planos y
+especificaciones tecnicas informativas.
+El proyecto incluye la obtencion de las aprobaciores respectivas, asi como su ejecucion. Sera
+existentes, tambien como el presentar la documentacion exigida para dar puesta en marcha al
+sistema.
+(hora de inicio y termino).
+4.2.1 Camara valvulas y programador:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planas informativos, Normas,
+Reglamento vigentes y Espacificaciones del Proyecto de la Especialidad.
+4.2.2Caneria PVC (C10) D = 25 mm:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente, planos infomativos, Normas,
+Reglamento vigentes y Especificaciones del Proyecto de la Espaciatidad.
+[QUQUE
+S+IFan: N' 13.1
+Edificio Cons slts lal
+municipioiquique.cl
+Sexto fiso - Torre Ce'ro
+para todos
+SECOPLAC
+Ilustre
+Municipalidad
+ce lquiqite
+SECRETARIA CUMUNAL JE PLANIFCAC ON
+4.2.3 Canerla PvC (C10) D = 20 mm:
+Se ejecutara astrictamente de acuerdo al proyecta correspondiente,planos informativos,Nomas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.2.4Caferia Polietileno Negro D = 1/2":
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente,planos Informativos,Nomas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.2.5Programador de riego 2 estaciones:
+Se ejecutara estrictamente de acuerdo al proyecto correspondiente,planos informativos, Normas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.2.6Valvulas solenoides de control flujo 3/4':
+Se ejecutara estrictamente de acuerdo al prayecto correspondiente, planos informativos, Normas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.2.7 Llaves de paso tipo bola 3/4':
+Se ejecutara estrictamente de acuerdo al proyecto corespondiente, planos informativos, Nomas,
+Reglamento vigentes y Especificaciones del Proyecto de la Especialidad.
+4.2.8Proyecto de riego:
+Se ejecutara estrictamente de acuerdo al proyecto cotaspondiente, planos Informativas, Normas,
+Reglamento vigentes y Especificaciones del Proyecto de la Espedalidad.
+5.0 MOBILIARIO URBANO:
+5.1 BOLARDOS:
+Se consulta la instalacion de bolardos en acera exterior en sector norte de plaza, en base a
+perfiles metalicos tubulares redondos de diametro 100 mm y altura 75 cm sobre nivel de radier.
+Por dentro del perfil tubular se vaciara homigon G-25. En su base se incluiran fierros estriados
+La ubicacion de los bolardos se indica en planta de arquitectura. El color de esmalte de
+Finalmente, en cada bolardo se instalaran 2 franjas de huincha reflectante en su parte superior,
+color amarillo de 5 cm de ancho.
+Referencia,Cinta Reflectante3MnDiamond GradeTparaVisibilidad deVehfcufos,Serle996,
+Amarillo Limon,5.08 cm x45.72m,oequivafente tecnico similaro superior.
+[QUIQUE
+Serrano N' 13-4
+municipioiquique.cl
+Eificio Cons'stral
+Sexlo Fisn - Torre Ge'ro
+@X
+pava todos
+secopac:pmunic.pioquio.le.c.l
+SECOPLAC
+Justre
+Municipalidad
+SECARETARIA COMUNAL DE PLANIFCACION
+de Jquique
+5.2 BANCA JARDINERA MODULAR:
+Se consuta la instalacion de banca Jardinera Modular de 8 modulas, de disenio en perfil en L
+invertido.
+La materialidad de la banca es de hormigon de alta calidad G35 Monolltico con un acabado de
+superficie GR 3oo, sello anti-gratfti, transparente, y una terminacion mate para hornigon, Asiento
+termlnado en pulido gris
+Se compone por 8 segmentos que forman un clrculo completo, cada uno de los cantos debera
+ser biselado, y con las perforaciones necesarias en su base para facilitar la instalacion de los
+anclajes correspondientes.
+estriados de 10 mm ms pegamento epoxico. Por el intarior debaran ser impermeabilizadas
+instalacion de sisterma de regadio para aspecies de plantas en su interior.
+Dimensiones: 300 cm Largo × 50 cm Ancho × 50 cm Alto.
+Diametro Interior: 200 cm.
+Diametro Exterior: 300 crn.
+PLANTA
+ELEVACION FRONTAL
+125
+52
+45
+Luncwe de herno Eirado 0 mm
+Referencla,Banca Jardinera 30oo, SKU HBAU27de PLAYPLAZA,o equtivaiente tecnico similar
+o superior.
+IQUIQUE
+Serrano N' 134
+municipioiqulque.cl
+Ec ificio Cor sisterial
+Sext Piso - Torrc Ccrro
+paro todos
+secop acnuricip ciquiqt.e cl
+SECOPLAC
+llustre
+Municipalidad
+de lquique
+EnE[F'& nJT,AL If FIA'  :aII:N
+5.3 MACETEROS:
+Se consulta la instalacion de maceteros cilindricos de hormigon. Altura: 7o cmis, Diametro: 40
+Por el interior deberan ser impermeabilizadas mediante igol primer, En su instalacion se debera
+tener en cuenta dejar drenaje en su base e instalacion de sisterma de regadio para especies de
+plantas en su interior.
+Referencis,maceteros cilindros de cemento de MuM, oequivalente tecnico simifaro superior.
+5.4BASUREROS:
+Se consulta la instalacion de basureros en materialidad polietileno inyectado de alta dernisidad de
+cual sera fijado segin especificaciones del fabricante.
+consulta de la empresa contratista. Ubicacion segun planos de arqultectura.
+Dimensiones: 480 × 357 × 811 h mm, capacidad: aprox. 50 litros
+IQUIQUE
+Serrano N" 134
+municipioiquique.cl
+Euficio Consistorial
+Sextc. Pis · Terre Carro
+@X
+para todos
+serroplacnur.c plciquigJc.rl
+SECOPLAC
+ustre
+Municipalidad
+de iquique
+SECRETARIA COMUNA-DE FLAIFICAC UN
+ReferenciaPapeleraDuBLIN,pap29-DublincoloresdeFULLURBANO(marcaFORJAS).0
+equivalente tecnico similar o superior.
+5.5CONTENEDORYOISPENSADORDE BOLSAS PARAPERROS:
+Se consulta la instalacion de contenedor y dispensador de botsas, Instalado en poste y fijado en
+terreno, ubicacion en planos de arquitectura.
+Caracteristicas del contenedor:
+- Capacidad: 25 litros.
+- Medidas: 57 cm de alta, 38 cm de ancho, 31,5 de largo.
+- Color: contenedor verde, tapa gris.
+- Peso: 3.7 kg.
+- Material: cuerpo de Duraplus, tapa de Durapol. revestimiento de polietilerno.
+Caracteristicas del dispansador:
+- Color: verde.
+- Medidas: 41.5 cm de ancho, 19 cm de largo.
+- Peso: 6,5 kg.
+- Material: cuerpo de Durapol, panel trasero de acero revestido Armortec.
+- Bolsas: de 27 cm de alto × 19 cm de ancho cada una.
+Caracteristicas del poste:
+Poste: da acero de 3 mm y de 3 m de largo (se debera empotrar con minimo de 40 crrn a suelo).
+Caracteristicas de la Senal: 400 × 600. 4 mm de espesor.
+[QUIQUE
+Serra N" 134
+Ec:ificio Consistorial
+municipioiquque.cl
+Sexlo Piso - Torre Cerro
+para todos
+sccoplac@munic pioquique.cl
+SECOPLAC
+Itustre
+Municipalidad
+de lquique
+SECREARIA COMUNA. LE PLAN F CAO GN
+Referencia, Contenedor Fido y dispensador de borsas pare perras con sernal reglamentaria de
+CREATIViDADPOSITIVA,aequivalenfetecnicosimilarosuperior.
+5.6 BOLSAS PARA DISPENSADOR:
+Se consulta el suministro de 5 unidades de paquetes de bolsas para deposiciones de perros,
+compatibles con modelo de item 5.5 Dispensador. Cada paquete debera contar con 250
+unidades, biodegradables, de color negro y medidas de cada bolsa es de 27 cm de alto × 19 cm
+de ancho.
+Referencia,BoisaparadeposicionesdeperrosdeCREATIViDADPOsiTiVA,oequivalente
+tecnico similarosuperior.
+[QUIQUE
+municipioiquique.c!
+5ex1. [=o - T.ro Cerr?
+paue tndos
+5ccr as2 ru: F: IG d. t cl
+SECOPLAC
+Ilustre
+Municipalidad
+de iquique
+SECAETARIA COMUNAL DE PLANIF CACION
+5.7 PLACAS INFORMATIVAS:
+Se consulta la instalacion de placas con un diseno de Informacion municipal. Se debera incluir
+las fijaciones y poste para instalar en el interior de la plaza.
+Las placas deben fabricarse con planchas de acero laminado en caliente; de 2,5 mm. de espesor
+y curnplir con la norrma chilena NCh-212. Las placas deben ser galvanizadas en caliente de
+acuerdo a la noma AsTM A 123. El espesor del galvanlzado debera ser como minimo de B5
+micrones. Las dimensiones planas, como altura y ancho, seran las correspondientes al tipo de
+senal con una tolerancia de +- 1 mm.
+El reverso de la placa debera llevar un simbolo que indigue que es propiedad de la llustre
+Municipalidad de lquique, el que consistira en un circulo con la leyenda 'ilustre Municipalidad de
+Iquique".
+Se debe considerar en la propuesta los alementos de union entre poste y placa, pemo hexagonal
+de 2 /2 x V, con sus respectivas tuercas y golillas, 4 elemontos por poste.
+Los postes deberan ser de tipo omega galvanizados. La base del poste debera ser en un poyo
+de hormigon y fieros estriados.
+La grafica sera realizada en plotter de corte de acuerdo a grafica referencial solicitada por la
+la empresa mandante para probar su correcto funcionarmienito al enlace web o informacion
+solicitada.
+Se requieren 2 placas:
+5.7.1 Sefialetica retiro basura: Medida 1,10 m × 0,46 m
+VECINORECUERDA:
+SACA TU BASURA ENESTOS HORARIOS:
+20:00A22:00HR5
+DE OOMINGO A VIERNES
+LA RECOLECCION ES DE 21:0O A 04:00 HRS.
+BARREYMANTEN LIMPIO
+ELFRONTIS OETU CASA 
+000
+Grafica referencial.
+5.7.2
+Senaletica camara de seguridad: Medida 1,10 m × D,46 m
+ESTELUGARESTASIENDO
+CAMARA N?
+VIGILADO LAS 24 HRS. POR LAS
+CAMARASDELCENTRODE
+ALERTA MUNICIPAL
+FONO DENUNCIAS
+572514736
+Grafca referencial.
+Cada grafica debera ser presentada al arquitecto previo su instalacion para su aprobacion y
+definiclon de ubicacion.
+IQUIQUE
+Serrano N 134
+Edificio Consrslofial
+municipioiquique.cl
+Sexto Piso + Torre Cerra
+para todos
+secoplac@mumcpipiquique.cl
+SECOPLAC
+ustre
+Municipalidad
+dle Iquiqile
+SECRETAAIA GOMUNAL DE FLAN FICAC UY
+6.0 JUEGOS INFANTILES:
+Se consulta la Instalacion de 1 juego infantil. Se deberan seguir todas las Indicacianes del
+donde se requiera.
+6.1JUEGOMODULARINCLUSIVOTIPO79:
+Caracteristicas:
+Juego Modular de exterior.
+Diseno multifuncional.
+Constituido por una plataforma cuya estructura y uniones metalicas son de acero
+galvanizado,sellado al hono con pintura electrostatlca.
+Dimensiones: 775 cm Largo × 545 crn Aricho × 315 cm Ata.
+Ubicacion de acuerdo a lamina de arquitectura.
+Referencia,Juego Plaza Madular7g Tobogen inchusiva Asiento Giradorcon Xitofono modelo
+JP-JP-554426de JUEGUTON,oequivalentetecnicosimilarosuperior.
+T.D PROYECTO Y EJECUCION DE PAISAJISMO Y AREAS VERDES:
+Se considera la ejecuciori de areas verdes en la plaza, asl como tambien el mejoramiento de las
+existentes en cuanto a extraccion de especies en mal estado o muertas y accianes de poda. Se
+busca obtener un area homogenea y pareja.
+Las species deberan ser podadas segun coresponda a su etapa de crecimiento y epoca del
+ano de ejecucion del proyecto, por ejemplo, poda de retiro de follaje seco, poda de formacion,
+poda de crecimiento, poda de rejuvenecimiento, etc segun corresponda.
+suelo en donde seran destinadas, esto para su buen crecimiento Y proyeccion futura del
+paisajismo.
+IQUIQUE
+Serr3no N"134
+municipioiguique.cl
+Edi'icu Corsistonal
+Sextc Pisa - Torre Cerro
+@X0
+para todos
+sacoplac@ruricpioiquiqu.e
+SECOPLAC
+Ilustre
+Municipalidad
+de lquique
+SECRFTAR A MUHA.CE PLANI LAC.CN
+7.1 LIMPIEZA Y RETIRO DE ESPECIES EN MAL ESTADO O SECAS:
+Se deben retirar las especies secas yfo muertas, en caso de ser especies arbustivas se
+debera eliminar el tronco desde la ralz y no dejar tocones que puedan causar accidentes a las
+personas. Las especies que se encuentren en periodo de recuparacion se deben dajar y mantener
+para su recuperacion. No puede existir en las plazas en ejecucion de obras especies que se
+observen secas o en mal estado.
+Dabe ser retirado el pastizal seco desde la raiz, asi como tambion las malezas presentes.
+perimetro a fin de que l area verde no invada las zonas de circulacion peatonal y mejorar la
+retencion del agua de riego.
+7.2PREPARACION DE TERRENO VEGETAL: 30% ARENA RUBIA, 30 % COMPOST Y
+40% TIERRA DE HOJAS:
+Se debera disponer de nuevo tereno apto para la plantacion de todas las nuevas especies
+en los sectores indicados en planos de paisajismo, ademas de lugares que pudiesen haber sido
+afectados por los trabajos de excavacion de muros de contencion, veredas u otros.
+Por lo que se debe preparar al sualo previamente a la plantacion del cesped a semillas
+con un sustrato de 30 % de arena rubia, 30 % compost y 40% tierra de hojas. Tambien se puede
+incorporar guano compostado o fertilizante.
+La arena rubia debera ser de optima calidad (arena de certo sin residuos).
+En caso de que el suela existente este en buenas condiciones y es apto para la plantacion
+de especies puede ser utilizado e incorporado en la mezcla, se deben ellminar los escombros.
+basura, piedras, piedrecillas y deber ser cernido.
+En el caso de encontrar material estabilizado en el suelo a intervenir se debe reemplazar
+completamente. La profundldad del sustrato en las jardineras a preparar dependera de las
+especies a irnplernentar, en el caso de cesped se debe considerar el crecimiento profundo de sus
+ratces, se puede considerar un suelo de entre 20 a 25 cm de profundidad para el drenaje y
+enraizamiento.
+[QUQUE
+Serrano N" f34
+Edihcio Corisistorkal
+municipioiguigue.cl
+Suxlc P:so - Torre! Cerro
+pare todos
+secoplac@runicipciqulquec:
+SECOPLAC
+Iustre
+Municipalidad
+dequique
+SECRETAAIA CMUNA.CE PLAN H'LAIIJY
+7.3PLANTACIONDEESPECIESPLANTASYARBUSTOS:
+7.3.1 Laurel en flor color blanco:
+Ubicacion y disposaicion segin planos de paisajlsmo, en interior de
+maceteros.Atura de entrega: 100-120 cms.
+Imagen referencial.
+7.3.2 Laurel en flor color fucsia:
+Ubicacion y disposicion segun planos de peisajismo, en interior de
+maceteros.Altura de entrega: 100-120 cms.
+Imagen referencial.
+IQUIQUE
+Serang N'134
+municipioiquique.cl
+Ecificio Consistoral
+Sexlo Piso - Torre Cerrn
+para todos
+sccoparmunicipiciouiquecl
+SECOPLAC
+ilustre
+Municipalidad
+de inuique
+SFCRETARIA COMUNAL SE PLANIFICACION
+7.3.3 Rayito de sol:
+Se consulta en 3 colores: amaillo, rojo y naranjo, en cantidades equitativas.
+Ubicacion y disposicion segon pianos de paisajismo. Altura de entrega: 20
+Imagen referencia, color amarillo.
+imagenreferenciai,coforrajo.
+Imagen referencial, cofor naranjo.
+IQUIQUE
+Serra1 N134
+Edificio Consistornial
+municipioiquique.cl
+Scxto Piso · Torre Cerr>
+para todos
+stcop:acmunicpioquque.cl
+SECOPLAC
+Ilustr
+Municipalidad
+de lquique
+7.3.4 Gazania:
+Se consuta en colores variadas, Ubicacion y disposicion segur planos de
+paisajismo.Altura de entrega: 20-30 cms.
+Irmagen referencial.
+8.0 ASEO Y ENTREGA DE LA OBRA:
+8.1 ASEO FINAL:
+La obra se mantendra pemanentemente aseada y ordenada, retirandose excedentas
+pariodicamente y dejando lugares de aperche de escombras y materiales de uso frecuente y con
+facil acceso para camianes. La I.T.O. dejara estampado en el libro de obra el incumplimiento de
+esta instruccion.
+La obra se entregara con sus pavimentos limpios (sin grasa, manchas o trizaduras), juegos
+infantiles y maquinas de ejercicios limpios. probados y sin manchas.
+Todos los escombros, basuras, material excedente no utllzable, generadas por las diferentes
+faenas, deberan retirarse de la obra hacia un botadero autorizado por la llustre Municlpalidad de
+Iquique.
+La empresa constructora durante el tiempo de la ejecucion de las obras debera procurar de
+manera constante la mantencion de las areas verdes presentes en la plaza en donde se estan
+ejecutando las obras, lo que sera supervisado por el ITO.
+Debera procurar el riego del cesped y de las especles presentes en la plaza en obras, asl como
+tambien de la poda y los cuidados fitosanitarios de las especies.
+En caso de que se ejecuten obras cerca de las troncos de los rboles estos deben ser protegidos
+con un cuadrante de madera u otro material resistente para que no sufran danos.
+En definitiva, la obra debera encontrarse en condiciones de ser utilizada de inmediato por el
+mandante.
+[QUIQUE
+Scrran: N' 1.i4
+municipioiquique.cl
+Sexte Piso + Tcrre Cerc?
+pana todos
+SECOPLAC
+Iustre
+Municipalidad
+de lquique
+SECAETAR.A COMURAL UE PLANIF CAC ON
+8.2RECEPCION DEFINITIVA:
+El contratista debera tramtar la Solicitud de Recepcion Definitiva de Obras de Urbanizacion.
+permita poder ccupar la plaza de manera inmediata.
+La obra debera serregada constantemente a fin de que hasta el dia de la recepcion provisoria o
+dsfinitiva el pasto,las especies vegetales y las areas verdes en general ge encuentren en perfecto
+estado y sin presentar zonas secas.
+Thustrsr
+Hdad de lquique
+Propietario, Mandante, Representante Legal
+Mauriclo Soria Macchiavello-Alcalde
+Pay zuihda Mdrales
+Arguitect
+JSECOPLAC
+IQUIQUE
+Serano N' 134
+Edificio Consistorial
+municipioiquique.cl
+Sexta Piso - Torre Cerro
+pua todos
+secop.ac@municipioiquique.cl

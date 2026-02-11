@@ -1,0 +1,475 @@
+Página 1 de 11 
+NUEVOS CONCEPTOS Y CRITERIOS EN LA DETERMINACIÓN DE LA PROFUNDIDAD 
+DE DRAGADO. 
+ 
+M en C. Etelberto D. Serrano Flores, Ing. Rodolfo Ramírez Xicotencatl, Ing. Arq. María de Lourdes Méndez 
+Reyes, M en C. María Dolores Servín Lugo, Top. Edy Nelson Sanchez Blanco. 
+eserrano@imt.mx; rramirez@imt.mx; Lourdes.mendez@imt.mx; dservin@imt.mx; esanchez@imt.mx 
+*Instituto Mexicano del Transporte, Km 12+000, Carretera Estatal No. 431 "El Colorado Galindo"/ Parque 
+Tecnológico Sanfandila / Mpio. Pedro Escobedo / Edo. Querétaro / C.P.76703 / Tel (442)2.16.97.77 
+ 
+RESUMEN 
+ 
+Con el paso del tiempo, se han adoptado nuevos conceptos y criterios con el fin de asegurar la calidad en los 
+trabajos de dragado de los puertos del mundo. A su vez se ha contado con diversos tipos de equipos para la 
+medición de profundidades, así como para realizar análisis de sedimentos previo y durante la ejecución de los 
+trabajos de dragado. Términos como retrodispersión, UKC (Under Keel Clearance) - profundidad bajo la quilla, 
+profundidad náutica, límite de elasticidad (“yield stress”), parámetros reológicos “in situ”, forman parte del 
+vocabulario actual que es considerado en la determinación de la profundidad segura de dragado en los puertos. 
+Aún queda por resolver la pregunta sobre cuál es la mejor forma de obtener y promover una implementación 
+internacional del nuevo criterio relacionado con la definición de la profundidad náutica, actualmente se 
+encuentra bajo investigación en diferentes grupos en todo el mundo. En el caso de los estudios que se realizan 
+en la Coordinación de Ingeniería Portuaria y Costera del Instituto Mexicano del Transporte, resulta de gran 
+utilidad integrar la información obtenida tanto del levantamiento batimétrico y del levantamiento del patrón de 
+corrientes, los cuales aportan información respecto a la profundidad y al espesor de las diferentes capas de 
+sedimento de acuerdo a su densidad, por otra parte, la información resultante de los análisis de los sedimentos, 
+sirven como soporte de la densidad de los mismos, así como la determinación de la plasticidad de las muestras 
+con lo que se justifica según sea el caso, la necesidad de aumentar los requerimientos en la profundidad del 
+dragado. 
+ 
+INTRODUCCIÓN. 
+ 
+Los trabajos y estudios batimétricos tienen como objetivo la medición de la profundidad del 
+fondo marino para determinar los calados existentes en una determinada área, en este 
+sentido, la hidrografía se encamina al estudio y descripción de las áreas y fondos marinos, 
+lacustres, fluviales y de sus costas adyacentes. Entre sus resultados destaca la confección 
+de cartas náuticas, tablas, derroteros y cuanta información resulte útil y necesaria para la 
+navegación. Los trabajos hidrográficos y sus resultados nunca se encaminan a conseguir una 
+carta precisa, sino más bien una carta segura. Las técnicas que se usan, las aproximaciones 
+que se realizan y la consideración de los errores siempre nos pone del lado de la seguridad, 
+por lo que, uno de los aspectos más importantes, es determinar la eficacia y fiabilidad de los 
+sistemas que se utilizan. 
+ 
+Las cartas náuticas son una de las ayudas básicas y necesarias para garantizar la seguridad 
+en la navegación, históricamente han sido confeccionadas por países con potencial 
+económico, a fin de establecer las rutas marítimas, y las cuales, hoy permiten establecer y 
+abordar la necesaria organización del tráfico marítimo. 
+ 
+Los estudios realizados a la configuración del fondo marino, es una herramienta tradicional 
+de la ingeniería costera, ya que, se consigue de esa manera una completa caracterización 
+morfológica de los fondos, y si se realizan diferentes levantamientos batimétricos, es posible 
+determinar los cambios que se registran en la zona de estudio e identificar las zonas donde 
+se produce una reducción en la profundidad. 
+ 
+
+ 
+Página 2 de 11 
+En todos esos casos, para el estudio y análisis de los procesos litorales, se hace necesario 
+disponer de una precisión y fiabilidad suficientes en los trabajos batimétricos. En este 
+sentido, durante el proyecto, construcción y explotación de obras marítimas se realizan 
+estudios y trabajos batimétricos para el replanteo, la medición y la caracterización del fondo 
+marino, y en muchas ocasiones dicha información batimétrica condiciona las posibles 
+soluciones 
+ 
+Cabe señalar que, para la ingeniería costera, es de gran importancia la cuantificación y 
+caracterización del transporte de sedimentos en el lecho marino, lo cual permite conocer 
+cómo se llevan a cabo los procesos de erosión y deposición, su efecto sobre las estructuras 
+de protección portuaria y costera, y en casos de las desembocaduras de los ríos, la 
+capacidad del cauce. 
+ 
+MEDICIÓN DE LOS SEDIMENTOS EN SUSPENSIÓN 
+ 
+La cuantificación de sedimentos en suspensión ha sido descrita y desarrollada durante más 
+de tres décadas basados en su mayoría en la expresión conocida como ecuación del sonar, 
+la cual relaciona una variable acústica, como por ejemplo la amplitud del retorno acústico 
+generalmente expresada en decibeles (dB), con la concentración de sedimentos en 
+suspensión usando una regresión lineal. 
+ 
+Los sonares o ecosondas envían pulsos de sonido para localizar objetos, el sonido viaja en 
+ondas, no en líneas rectas, y estas ondas se expanden en conos, haciéndose cada vez más 
+amplias. La mayoría de los sonares pueden controlar el rango del cono de onda de sonido 
+cambiando la frecuencia de exploración, entre las que se destacan: 
+ 
+ 
+El escaneo amplio (generalmente con ángulos de 40° a 60°) es bueno para escanear 
+rápidamente grandes áreas y obtener información general sobre la profundidad y la 
+estructura del fondo, pero la precisión y los detalles serán menores. 
+ 
+El escaneo de frecuencia alta es más adecuado para aguas menos profundas porque 
+mientras más profundo escanea el cono cubre un área más amplia. Esto significa que 
+si está escaneando a una profundidad de 45 pies (13.7 m) verá objetos en un área que 
+tiene un diámetro de 47 pies (14.3 m). 
+ 
+El escaneo de frecuencia baja (ángulos de 10° a 20°) brinda una imagen más precisa, 
+pero cubre un área más pequeña. La exploración de frecuencia baja, también es más 
+adecuada para aguas más profundas, ya que el cono no se extiende tan ancho. 
+ 
+La frecuencia de una onda es el número de veces que se genera la onda por unidad de 
+tiempo, y se mide en hercios (Hz). Así, una sonda de 200 kHz emite doscientas mil ondas por 
+segundo, sin embargo, la importancia de la frecuencia en los trabajos batimétricos no se trata 
+de cuántas ondas se emiten, sino de la distancia que son capaces de alcanzar. 
+ 
+La frecuencia es inversa a la longitud de onda, es decir, cuantas más ondas se producen en 
+un segundo más corta es la distancia entre ellas, y esa frecuencia también es inversa a la 
+distancia, una onda de baja frecuencia llega más lejos que una de alta frecuencia, en este 
+sentido, la frecuencia alta (200 - 600 kHz) está indicada para fondos someros, al tratarse de 
+una longitud de onda corta, permite tener muchos detalles al proporcionar una mejor 
+resolución y definición de estructuras sumergidas y de bancos, mientras que, la baja 
+
+ 
+Página 3 de 11 
+frecuencia (50 kHz) es adecuada para fondos profundos al tener una mayor capacidad de 
+penetración, es decir, alcanzan profundidades mayores, sin embargo su definición es inferior. 
+El ancho del haz (o ángulo de cono) de un transductor determina el área que será capaz de 
+explorar bajo el agua. Cuanto más ancho es el ángulo del haz, mayor será la superficie que 
+podrá cubrir. Es importante señalar que cuanto más grande sea el haz menos precisa será la 
+medición de profundidad en zonas del lecho rugoso o variable. Otros aspectos que afectan el 
+alcance son: las condiciones y tipo de agua (todas las sondas logran mayores alcances en 
+agua dulce, que en salada) y la tipología del fondo. 
+ 
+Los sonares miden tanto el tiempo que tarda un pulso de sonido en regresar, como la 
+intensidad de la señal que también regresa, esto le permite mostrar cuán duros o blandos 
+son los objetos bajo el agua, debido a que los objetos suaves de baja densidad devuelven 
+una señal más débil, mientras que los objetos duros de alta densidad devuelven una señal 
+más fuerte. 
+ 
+La tecnología acústica Doppler, en especial el ADCP, es una de las herramientas más 
+recurrentes para medir concentración de sedimentos en suspensión “in situ”. Su principal 
+ventaja, es la capacidad de obtener datos en todo el haz acústico, o bien en toda la 
+profundidad del flujo o el ancho de la sección, dividido en celdas de determinado tamaño, sin 
+tener que introducir el equipo en la columna de agua a una distancia grande, esto, sumado a 
+la posibilidad de realizar mediciones en movimiento, permite obtener mediciones en una 
+sección transversal con una gran resolución espacial cuando se utiliza una configuración 
+vertical hacia abajo con los haces acústicos. Estos instrumentos a partir de los sensores 
+acústicos de retrodispersión, envían una señal acústica al medio y al rebotar con las 
+partículas presentes se modifica la intensidad de señal de retorno, a partir del cambio de fase 
+entre la señal emitida y la de retorno se calcula la velocidad del fluido, asumiendo que es 
+igual al de las partículas. Y dado que la señal de retorno depende de las características del 
+sedimento, es posible aplicar esta técnica para la medición de concentración de sedimentos 
+en suspensión y la cuantificación del transporte de fondo. 
+ 
+Según lo reportado en varias referencias bibliográficas consultadas, a bajas frecuencias se 
+absorbe mayor porcentaje de dB, con un objetivo más enfocado al modo de operación de un 
+perfilador de subfondo que en realidad penetran por debajo del lecho marino (más de 18 m) 
+pero registran la misma profundidad del lecho marino como se muestra en la Figura 1. 
+ 
+ 
+Figura 1. Imagen realizada con perfilador de subsuelo con baja frecuencia en el Puerto de Aberdeen Escocia. 
+
+ 
+Página 4 de 11 
+Retrodispersión acústica 
+ 
+León M.J.D. 2004 define retrodispersión acústica o Backscatter a la energía devuelta de 
+manera incoherente de un pulso acústico que ha sido transmitido a través de una columna de 
+agua, a una determinada distancia y con un cierto ángulo, en un área concreta del fondo 
+submarino, la variabilidad espacial del Backscatter es determinado por un sistema multihaz 
+gracias a la relación existente entre las propiedades físicas del fondo marino y la energía 
+acústica. En este sentido, la retrodispersión acústica depende de: 
+ 
+ 
+El coeficiente de reflexión, debido a la diferencia de impedancia acústica entre el agua 
+y los materiales del fondo marino. 
+ 
+El volumen de reverberación, expresado en términos de longitud de onda. 
+ 
+La rugosidad de la superficie del fondo. 
+ 
+En teoría, la diferente composición de los fondos marinos, producen un distinto tipo de 
+retorno de los haces acústicos que son reflejados por la superficie, es como una firma 
+característica, que hace viable la utilización de una herramienta capaz de reconocer las 
+diferentes firmas y así poder clasificar los diferentes tipos de suelo. Pero en la práctica, este 
+problema tiene una compleja solución ya que los factores mencionados anteriormente y de 
+los que depende la retrodispersión tienen individualmente una compleja solución, pero en la 
+naturaleza aparecen combinados por lo que su solución es casi imposible. 
+ 
+La retrodispersión también varía en función del ángulo de incidencia del haz transmitido, las 
+variaciones angulares de intensidad, normalmente se comportan como el modelo de Lambert 
+asumiendo una superficie lisa; en la práctica, el modelo de Lambert no es totalmente 
+apropiado ya que la superficie del fondo marino no es completamente plana. 
+ 
+Esta es una de las ventajas de los sistemas multihaz, donde de manera instantánea, las 
+diferentes medidas de secciones transversales de la superficie, pueden ser usadas para 
+llevar a cabo una apreciación del perfil submarino, en función al posterior cálculo del ángulo 
+real de incidencia y el tamaño del área registrada. Adicionalmente, unas cortas series de 
+pulsos pueden ser usados para corregir el ángulo real de incidencia en la dirección 
+longitudinal donde las variaciones en la inclinación también contribuyen a una dependencia 
+angular. Por lo tanto, una herramienta útil para la creación de mapas de retrodispersión, es el 
+uso de las variaciones de intensidad de la misma, debida a la distinta composición de los 
+fondos marinos.  
+ 
+En la utilización de variación de intensidad para la generación de los mapas antes descritos, 
+están incluidas las correcciones por variación automática de la ganancia (TVG), por 
+calibración del haz acústico, y corrección por el relieve en la dirección transversal en el 
+supuesto de que no existe refracción. En estimaciones cualitativas, algunos tipos de fondo 
+con un alto contraste (afloraciones de roca, arena gruesa, arena fina, lodo) pueden ser 
+diferenciados sin la aplicación de alguna de las correcciones mencionadas anteriormente, 
+especialmente en fondos planos, sin embargo, en estimaciones cuantitativas esas 
+correcciones deben ser aplicadas, además, se procede a la recopilación de las diferentes 
+propiedades físicas del fondo como son el tamaño grano, la rugosidad superficial, la 
+impedancia, etc. Al tener en cuenta todos estos factores, se pueden generar superficies que 
+correspondan a la respuesta acústica obtenida. 
+
+ 
+Página 5 de 11 
+Actualmente, la medida de la retrodispersión acústica de la mayoría de los materiales ya es 
+conocida y gracias a esto, se han desarrollado equipos capaces de clasificar con una mayor 
+exactitud, los diferentes fondos submarinos haciendo uso de la dependencia angular de la 
+retrodispersión. 
+ 
+El tamaño de las partículas de los sedimentos del fondo marino y las irregularidades que 
+estos provocan sobre la superficie afectan de distinta forma dependiendo de la longitud de 
+onda empleada. Por ejemplo, en una determinada longitud de onda, las arcillas y el limo son 
+lisos comparados con las arenas y gravas, sin embargo, estas diferencias son menos 
+notables entre sedimentos de la misma clase como son las arcillas arenosas y las arenas 
+finas (figura 2). 
+ 
+Figura 2. Relación entre intensidad de Backscatter y ángulo de incidencia, según tamaño de grano de 
+sedimento para una frecuencia de 30 kHz (modificado de Moustier, 2002). 
+ 
+El tamaño del grano también afecta a la porosidad y al contenido de agua de los materiales 
+de los que depende la velocidad de una onda de compresión. El producto de la velocidad de 
+la onda de compresión v y la densidad de un volumen saturado de sedimentos ρ da como 
+resultado la resistencia de un material a ser traspasado por una onda acústica. A esto se 
+denomina impedancia. Las diferencias de impedancias entre dos medios, determinan en 
+parte el comportamiento de un pulso acústico. Esta relación se expresa como: 
+ 
+ 
+ 
+Donde R0 es el coeficiente de reflexión entre los dos medios con velocidades v1 y v2 y 
+densidades ρ1 y ρ2 respectivamente. 
+ 
+Las irregularidades de la superficie de contacto se miden en términos de longitud de onda λ, 
+una cierta superficie puede parecer rugosa para una longitud de onda pequeña, respecto a la 
+longitud de las irregularidades del fondo, lo que provoca un cambio de fase en la onda 
+reflejada dándose interferencias entre los frentes de onda reflejados. Por otro lado, la misma 
+superficie puede parecer lisa para longitudes mayores, porque los frentes de ondas son 
+reflejados con diferencias de fase muy pequeños respecto a la longitud de onda inicial. 
+
+ 
+Página 6 de 11 
+Lodos fluidos 
+ 
+Un factor de mayor relevancia para la navegación segura, es el espacio que queda bajo la 
+quilla del buque, conocido como UKC (Under Keel Clearance - profundidad bajo la quilla). Se 
+puede lograr suficiente UKC mediante el establecimiento de una restricción en el calado 
+máximo permitido para los buques que ingresan al puerto o mediante el mantenimiento de la 
+profundidad gracias a intensas operaciones de dragado en áreas sedimentadas, la primera 
+opción es indeseable desde un punto de vista económico y podría resultar en restricciones a 
+las naves que ingresan normalmente al puerto, mientras que, la segunda opción es favorable 
+en general, sin embargo, es de suma importancia considerar el costo y el impacto ambiental 
+del dragado que se requiere para disponer del lodo fluido. 
+ 
+El lodo fluido es una suspensión altamente concentrada de partículas de sedimento con 
+limos microbianos, los cuales pueden entenderse como una red de poli – electrolitos que 
+mantienen las partículas de sedimento en suspensión, razón por la cual el lodo fluido puede 
+entenderse como un fluido viscoso – elástico. El lodo fluido típicamente se deposita en el 
+fondo del canal por el cual navega el buque cuando la tasa de sedimentación neta es mayor 
+que la tasa de consolidación (Winterwerp, J.C. & van Kesteren, W.G.M.,2004). 
+ 
+DETERMINACIÓN DE LA PROFUNDIDAD NÁUTICA 
+ 
+La navegación en puertos y canales que tienen lodo fluido sobre el lecho puede ser 
+desafiante debido a varios factores. El lodo fluido no puede ser detectado de manera 
+confiable por los métodos acústicos tradicionales. La interpretación de los datos acústicos 
+medidos es ambigua en vista de que la posición del lecho sobre la carta acústica no es clara. 
+Otro desafío para la navegación en áreas lodosas es la generación de ondas internas 
+(ondulaciones). El control y la maniobrabilidad de un buque puede ser obstaculizada por tales 
+ondas en el caso de un buque navegando en las cercanías de la interfaz agua – lodo. En 
+particular, la amplitud de las ondulaciones afecta el timón y la eficiencia de la hélice, lo que 
+se ha observado tanto “in situ” como en experimentos de laboratorio.  
+ 
+El concepto de la “profundidad náutica” se definió sobre la base de un experimento a escala 
+real en el puerto de Rotterdam, en Bangkok y a lo largo de la costa de Surinam, en dichos 
+experimentos se encontró que densidades del lodo fluido con valores superiores a 1200 
+kg/m3 tenían una influencia tolerable en la maniobrabilidad del buque. (ver figura 3). 
+ 
+ 
+Figura 3. - Representación gráfica de UKC, fondo náutico y diferencia de medición con frecuencias. 
+ 
+
+ 
+Página 7 de 11 
+En 1980, se realizaron una serie de experimentos a escala real en el puerto de Zeebrugge, 
+para los cuales, se escogió como referencia para la estimación del UKC, la interfaz          
+agua – lodo que se identificó mediante una ecosonda de alta frecuencia (180 – 210 Khz). Los 
+experimentos se llevaron a cabo con UKC positivo y negativo que corresponden a los niveles 
+por encima y por debajo de la profundidad del agua – lodo, con los cuales se concluyó que el 
+lodo fluido con una baja densidad podría ocasionar cambios en el comportamiento náutico 
+normal del buque, pero sin llegar a situaciones peligrosas. 
+ 
+Una relación profundidad – reología típica se muestra en la Figura 4, en la cual se indica que, 
+justo debajo de la interfaz agua – lodo, las propiedades reológicas del lodo son apenas 
+diferentes a las del agua. En un cierto nivel, definido como la "transición reológica", la tensión 
+de rendimiento y la viscosidad aumentan muy rápidamente con la profundidad, además, las 
+pruebas a gran escala con una draga de tolva de succión en Zeebrugge han demostrado que 
+el comportamiento de un barco se vuelve inaceptable, si su quilla toca este nivel, volviendo al 
+barco incontrolable y adopta el camino "más fácil" siguiendo el lodo, al mismo tiempo, es 
+prácticamente imposible disminuir la velocidad, incluso a uno o dos nudos.  
+ 
+ 
+Figura 4.- Reología en función de la profundidad en el puerto Zeebrugge: mediciones en 1987 (De Meyer y 
+Malherbe, 1987) y 1997. 
+ 
+La razón por la que el fondo náutico generalmente se expresa en función de una densidad 
+crítica, está relacionada con las desventajas de las mediciones reológicas in situ, debido a 
+que no se dispone de un método de estudio reológico continuo, comparable al realizado con 
+ecosonda, además, la reología del lodo está influenciada por el método de muestreo, lo que 
+dificulta la comparación de datos de diferentes fuentes, esto es una consecuencia de la 
+tixotropía del lodo fluido, el estrés de rendimiento disminuye si se altera el material, de modo 
+que el lodo fluido se comporta más como un líquido después de que se ha agitado. 
+ 
+Actualmente la siguiente definición de “profundidad náutica” se usa para efectos náuticos en 
+áreas lodosas: “La profundidad náutica es el nivel en el cual las características físicas 
+del fondo alcanzan un límite crítico, en el cual el contacto de la quilla del buque causa 
+daños o efectos inaceptables en el control y la maniobrabilidad del buque” (PIANC, 
+2014).  
+ 
+ 
+
+ 
+Página 8 de 11 
+Profundidad náutica en la actualidad 
+ 
+Desde hace varias décadas, se reconoció la necesidad de definir adecuadamente los 
+parámetros empleados en la determinación de la profundidad náutica, sin embargo, en esa 
+época los experimentos reológicos “in situ” eran prácticamente imposibles, esto forzó a la 
+comunidad a adoptar una parametrización alternativa basada en la densidad. 
+ 
+Con el paso de los años, se han desarrollado un nuevo conjunto de equipos que pretenden 
+estudiar las propiedades reológicas de la capa de lodo fluido (p.e. Graviprobe, Rheotune, 
+Rheocable), dichos equipos están siendo probados en diferentes puertos, pero aún queda 
+por ser investigado si los parámetros obtenidos de los resultados experimentales son 
+compatibles unos con otros, debido a que son necesarios métodos más avanzados como los 
+métodos acústicos 3D con el fin de mapear las capas de lodo fluido. 
+ 
+La medición de los parámetros reológicos y en particular el límite de la elasticidad (“yield 
+stress”), requieren de un protocolo bien pensado y que sea aceptado globalmente, en la 
+medida que esos parámetros son fuertemente históricos – dependientes y llevan a efectos 
+tixotrópicos, por lo que, la medición de parámetros reológicos “in situ” tiene que ser 
+comparado con muestras analizadas en laboratorio para propósitos de calibración, se debe 
+tener cuidado durante el muestreo, almacenamiento y análisis de esas muestras y la 
+composición de las muestras de lodo (en términos de mineralogía, contenido de materia 
+biológica y orgánica) deben ser relacionadas con las propiedades reológicas y el 
+comportamiento tixotrópico del lodo. 
+ 
+Las propiedades del lodo (densidad, viscosidad, fluencia, espesor) son dependientes del 
+tiempo debido a los procesos de consolidación en la capa de lodo fluido, más aún, las capas 
+de lodo son móviles y se requiere más conocimiento para entender el comportamiento de las 
+capas del lodo fluido en función del tiempo. 
+ 
+Investigaciones realizadas en el Instituto Mexicano del Transporte 
+ 
+En la Coordinación de Ingeniería Portuaria y Costera del Instituto Mexicano del Transporte, 
+se han realizado algunos estudios donde se ha integrado información detallada de un 
+levantamiento batimétrico y de corrientes con un equipo Perfilador acústico tipo Doppler 
+(ADCP) marca Teledyne, modelo Workhorse Monitor, a una frecuencia de 600 Hz y un 
+muestreo de sedimentos con una draga tipo almeja a los cuales se les realizó un análisis de 
+gravedad específica y un análisis granulométrico por medio de hidrómetro. 
+ 
+Como parte de los resultados obtenidos, en la figura 5, se presenta una sección con los 
+perfiles de profundidad con una capa de sedimento en suspensión delimitado por la línea 
+roja, un fondo en consolidación no navegable marcado con la línea azul, y un fondo bien 
+consolidado marcado con la línea rosa. 
+ 
+
+ 
+Página 9 de 11 
+ 
+Figura 5.- Perfil de profundidades obtenidas con el ADCP. 
+ 
+ESTUDIOS DE MANIOBRABILIDAD EN AMBIENTES LODOSOS 
+ 
+En diversas partes del mundo, se han realizado algunas pruebas de modelos a escala y 
+fueron desarrolladas para tratar de comprender mejor la maniobrabilidad de los buques en 
+ambientes lodosos, estas pruebas fueron acopladas a modelos matemáticos de 
+maniobrabilidad para cuantificar el efecto de la capa de lodo en el control del buque, sin 
+embrago, los experimentos a escala con lodo real pueden ser problemáticos debido a los 
+efectos del tiempo en el lodo (p.e. configuración y consolidación), por lo que, en dichos 
+ensayos se emplea un fluido denso y viscoso para imitar el lodo fluido en un sistema de dos 
+capas, cuyas propiedades físicas (densidad y viscosidad) se asemejan a las condiciones del 
+lodo fluido. 
+ 
+En dichos estudios, se analizaron los efectos del lodo en el squat y en el trimado dinámico de 
+un buque tanquero, en los cuales se observó que el buque se vuelve lento con UKC del 3 al 
+5% de calado por encima del fluido denso, sin embargo, las reducciones realizadas a valores 
+negativos del UKC, hicieron al tanquero menos lento en sus maniobras, además, la 
+presencia de fluido denso en el fondo tiende a reducir el movimiento estable y a acelerar los 
+movimientos dinámicos. 
+ 
+Una observación muy importante fue la formación de ondas internas en la interfaz            
+agua – lodo cuando pasa un buque, la amplitud de estas ondas internas, se incrementa con 
+el espesor de la capa del fluido denso y con la reducción de la densidad del fluido, y afectan 
+la eficiencia de la hélice. 
+ 
+Con base en lo anterior, en la figura 6 se observa que, la eficacia de la propulsión puede ser 
+afectada en el segundo intervalo de velocidades, y en estas condiciones, también se esperan 
+problemas de control con una hélice de respaldo, lo cual, pueden afectar la distancia de 
+parada. 
+ 
+
+ 
+Página 10 de 11 
+ 
+Figura 6.- Relación de velocidades y su influencia de las características del fondo sobre la UKC. 
+ 
+Por lo tanto, en cuanto a la maniobrabilidad, basado en las simulaciones realizadas se puede 
+concluir que: 
+ 
+ 
+El efecto del lodo es mayor a velocidades bajas (3 nudos) que en velocidades altas (7 
+nudos). 
+ 
+Las maniobras son más lentas cuando hay lodo, especialmente con una UKC positiva 
+relativa a la interfase. 
+ 
+El lodo disminuye los movimientos estables (velocidad, deriva, velocidad de giro 
+durante las pruebas en círculo de giro), pero acelera los movimientos dinámicos 
+(descenso y recorrido durante las pruebas en zigzag). 
+ 
+Por otro lado, la acción del timón se ve afectada por la presencia de una capa fluida de lodo 
+de varias maneras, de las cuales, el efecto más notable es la llamada inestabilidad de la 
+acción del timón, que se observó durante las pruebas de modelos autopropulsados en 
+Flanders Hydraulics Research cuando la quilla del buque toca tanto el agua como el lodo. 
+ 
+CONCLUSIONES 
+ 
+Aún queda por resolver la pregunta sobre cuál es la mejor forma de obtener y promover una 
+implementación internacional del nuevo criterio relacionado con la definición de la 
+profundidad náutica, la cual, actualmente se encuentra bajo investigación por diferentes 
+grupos en todo el mundo. 
+En resumen, la maniobrabilidad y la controlabilidad se ven afectadas principalmente a baja 
+velocidad y pequeños positivos en la altura de la quilla referida a la interfaz agua – lodo. 
+ 
+En el caso de los estudios que se realizan en la Coordinación de Ingeniería Portuaria y 
+Costera del Instituto Mexicano del Transporte, resulta de gran utilidad integrar la información 
+obtenida tanto del levantamiento batimétrico y del levantamiento del patrón de corrientes, los 
+cuales aportan información respecto a la profundidad y al espesor de las diferentes capas de 
+sedimento de acuerdo a su densidad, así como la información de los análisis de sedimentos 
+que sirven como evidencia de la densidad de los mismos y para la determinación de la 
+plasticidad de las muestras con lo que se justifica en su caso, la necesidad de aumentar la 
+profundización en el dragado hasta la cota requerida para la navegación segura de los 
+buques que hacen uso de los puertos. 
+ 
+
+ 
+Página 11 de 11 
+Cabe destacar que en cada puerto se encontraran diferentes tipos de suelo marino y 
+composición de sedimentos así como, condiciones hidrodinámicas por lo que es necesario 
+combinar equipos y métodos de análisis de muestras de sedimentos para una mejor 
+interpretación del comportamiento en cada sitio, el uso de nucleadores o muestreadores de 
+sedimentos tipo Beeker con un registro exacto de la profundidad seguramente aportara 
+evidencias tangibles del tipo de sedimento y espesor de cada capa encontrado en el fondo 
+(figura 7). 
+ 
+ 
+Figura 7.- Muestreador de sedimentos tipo Beeker. 
+ 
+REFERENCIAS BIBLIOGRÁFICAS 
+ 
+ 
+Delefortrie, G., Vantorre, M. & Eloot, K. (2015) Modelling navigation in muddy areas through 
+captive model tests. Journal of Marine Science and Technology 10. 
+ 
+Delefortrie, G. & Vantorre, M. (2015) Ship manoeuvring behaviour in muddy navigational 
+areas: state of the art. Proceedings of the 4th International Conference on Ship Manoeuvring 
+in Shallow and Confined Water with Special Focus on Ship Bottom Interaction.  
+ 
+Delefortrie, G (2008) Manoeuvrability of deep drafted vessels in muddy navigation areas. 
+PIANC magazine 133.  
+ 
+León M.J.D. 2004. Del escandallo a los sondadores Multihaz. Escuela de hidrografía. 
+España.  
+ 
+PIANC (2014) Harbour Approach Channels - Design Guidelines, Report 121, PIANC, 
+Brussels.

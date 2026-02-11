@@ -1,5 +1,2 @@
-tesseract-ocr
-tesseract-ocr-spa
-libpoppler-dev
-libpoppler-cpp-dev
-poppler-utils
+libgl1
+libglib2.0-0

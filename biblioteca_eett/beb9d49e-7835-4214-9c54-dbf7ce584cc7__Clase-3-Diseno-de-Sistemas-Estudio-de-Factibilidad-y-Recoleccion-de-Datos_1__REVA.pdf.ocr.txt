@@ -1,0 +1,393 @@
+Diseño de Sistemas: Estudio de 
+Factibilidad y Recolección de Datos
+Un análisis profesional sobre cómo evaluar la viabilidad de proyectos de software y 
+las técnicas para obtener información precisa que guiará todo el ciclo de desarrollo.
+Docente: Jonathan Rojas T.
+
+Objetivos de Aprendizaje
+En esta sesión aprenderás a evaluar profesionalmente si un proyecto de software debe realizarse antes de invertir recursos significativos en su 
+desarrollo.
+Comprender el papel del estudio 
+de factibilidad
+Analizaremos cómo este estudio 
+preliminar se integra en las 
+metodologías de desarrollo modernas y 
+cómo puede prevenir fracasos costosos, 
+como ocurrió con el sistema de 
+reservas de Qantas que colapsó en 2022 
+por falta de análisis de capacidad.
+Analizar los tipos de factibilidad
+Examinaremos cinco dimensiones 
+críticas que determinan si un proyecto 
+puede implementarse exitosamente, 
+con casos reales como la 
+implementación fallida del sistema de 
+salud HealthCare.gov por problemas de 
+factibilidad técnica.
+Dominar técnicas de recolección 
+de datos
+Aprenderás a seleccionar y aplicar las 
+herramientas adecuadas para obtener 
+información precisa y relevante de los 
+stakeholders.
+
+¿Qué es un Estudio de Factibilidad?
+El estudio de factibilidad es una evaluación sistemática que determina 
+si un proyecto de software es viable antes de invertir recursos 
+significativos en su desarrollo.
+Este análisis preliminar es como un "filtro" que evita iniciar proyectos 
+destinados al fracaso, similar a cómo un arquitecto evalúa si un 
+terreno es adecuado antes de diseñar un edificio.
+"¿Vale la pena construir este sistema?"
+Caso real: La cadena de supermercados Target invirtió $300 
+millones en un sistema de inventario en Canadá que nunca 
+funcionó adecuadamente. Un estudio de factibilidad riguroso 
+habría identificado las incompatibilidades con los procesos 
+locales.
+
+Importancia en el Desarrollo de 
+Software
+El estudio de factibilidad actúa como un "seguro" contra el fracaso de proyectos de 
+software, que según el Standish Group, tienen una tasa de fracaso cercana al 19% y 
+un 52% enfrentan desafíos significativos.
+Prevención de sistemas 
+inútiles
+Evita desarrollar software que nadie 
+utilizará o que no resuelve el 
+problema real, como ocurrió con 
+Google Wave, descontinuado por 
+baja adopción.
+Identificación de limitaciones
+Detecta restricciones técnicas o 
+legales que podrían bloquear el 
+proyecto, como sucedió con 
+aplicaciones de geolocalización en 
+China que fracasaron por 
+restricciones gubernamentales.
+Priorización eficiente
+Permite a las organizaciones enfocarse en proyectos con mayor potencial de 
+éxito, optimizando la asignación de recursos limitados.
+
+Tipos de Factibilidad en Software
+Para evaluar integralmente un proyecto de software, debemos analizarlo desde cinco dimensiones complementarias que abordan distintos 
+aspectos de su viabilidad:
+Cada dimensión debe evaluarse con criterios específicos y casos de estudio relevantes para el contexto del proyecto.
+Factibilidad Técnica
+¿Es posible construirlo con la tecnología 
+disponible?
+Factibilidad Económica
+¿Es rentable desarrollar este sistema?
+Factibilidad Operativa
+¿Los usuarios adoptarán el sistema?
+Factibilidad Legal
+¿Cumple con las normas y regulaciones?
+Factibilidad Temporal
+¿Puede desarrollarse en el tiempo 
+requerido?
+
+Factibilidad Técnica en Software
+La factibilidad técnica evalúa si existe la tecnología y las habilidades 
+necesarias para construir el sistema propuesto. Es similar a verificar si 
+tenemos las herramientas adecuadas antes de iniciar una construcción.
+Aspectos clave a evaluar:
+Tecnologías disponibles: lenguajes, frameworks, bases de datos
+Infraestructura existente: servidores, redes, capacidad de procesamiento
+Talento humano: desarrolladores con experiencia en las tecnologías 
+requeridas
+Integración: compatibilidad con sistemas existentes
+Caso real: El sistema de registro de votantes de Kenia 
+colapsó en 2017 porque la infraestructura de 
+servidores no podía manejar la carga concurrente, un 
+problema de factibilidad técnica que debió 
+identificarse anticipadamente.
+
+Factibilidad Económica en 
+Software
+La factibilidad económica determina si el beneficio de implementar el sistema 
+justifica la inversión requerida. Es el equilibrio entre lo que gastamos y lo que 
+obtenemos.
+Costos
+Desarrollo: salarios del equipo
+Infraestructura: servidores, cloud
+Licencias: software, API, servicios
+Mantenimiento: actualizaciones, soporte
+Beneficios
+Reducción de tiempo operativo
+Disminución de errores
+Aumento de productividad
+Nuevas oportunidades de negocio
+Indicadores
+ROI: Retorno de Inversión
+TCO: Costo Total de Propiedad
+Payback: Tiempo de recuperación
+Ejemplo: La aerolínea LATAM implementó un sistema de gestión de tripulaciones que 
+costó $5 millones, pero generó ahorros de $12 millones anuales en optimización de 
+recursos, demostrando una excelente factibilidad económica.
+
+Factibilidad Operativa en Software
+La factibilidad operativa evalúa si el sistema propuesto será realmente 
+utilizado por los usuarios y se integrará adecuadamente a los procesos 
+existentes de la organización.
+Preguntas fundamentales:
+¿Los usuarios están dispuestos a cambiar sus rutinas actuales?
+¿El sistema se alinea con la cultura organizacional?
+¿Existe resistencia al cambio tecnológico?
+¿La dirección apoya la implementación?
+"Un sistema técnicamente perfecto fracasará si los 
+usuarios lo rechazan."
+Caso práctico: Un hospital implementó un sistema de historias clínicas 
+digitales técnicamente avanzado, pero los médicos lo abandonaron 
+porque requería el triple de tiempo para ingresar datos que el método 
+anterior en papel.
+
+Factibilidad Legal en Software
+La factibilidad legal analiza si el sistema propuesto cumple con las leyes, regulaciones y normas aplicables, evitando riesgos legales y sanciones que 
+podrían comprometer todo el proyecto.
+Protección de Datos
+El software debe cumplir con regulaciones 
+como el GDPR europeo, la Ley 19.628 en 
+Chile o la LGPD en Brasil. Un sistema de 
+reservas hoteleras en Sudamérica fue 
+retirado del mercado por no implementar 
+el consentimiento explícito para el uso de 
+datos personales.
+Propiedad Intelectual
+Verificar licencias de componentes y 
+bibliotecas utilizadas. Una startup 
+mexicana enfrentó demandas por 
+incorporar código con licencia 
+incompatible en su producto comercial.
+Regulaciones Sectoriales
+Sistemas financieros deben cumplir con 
+regulaciones bancarias específicas. En 
+Colombia, un sistema de pagos fue 
+bloqueado por no implementar 
+correctamente los protocolos de 
+seguridad requeridos por la 
+Superintendencia Financiera.
+
+Factibilidad Temporal en Software
+La factibilidad temporal evalúa si el proyecto puede completarse dentro de los plazos requeridos por el negocio, considerando recursos 
+disponibles y complejidad técnica.
+Factores críticos a considerar:
+Fechas límite del negocio: lanzamientos de productos, cambios regulatorios, 
+temporadas comerciales
+Disponibilidad del equipo: cantidad de desarrolladores y su dedicación al 
+proyecto
+Complejidad técnica: desarrollo de componentes nuevos vs. uso de soluciones 
+existentes
+Dependencias externas: proveedores, servicios de terceros, aprobaciones
+Caso real: Una cadena de retail no logró 
+implementar su sistema de ventas online 
+antes de la temporada navideña, perdiendo 
+millones en ventas potenciales por un 
+cronograma irrealista que no consideró 
+adecuadamente la integración con sistemas 
+legacy.
+La presión por entregar rápidamente suele ser la causa 
+principal de fracasos en proyectos de software cuando 
+no se realiza un análisis temporal realista.
+
+Resultado del Estudio de Factibilidad
+El estudio de factibilidad culmina en un documento formal que 
+sintetiza los hallazgos y proporciona una recomendación clara sobre la 
+viabilidad del proyecto de software.
+Componentes del informe:
+Resumen ejecutivo con conclusión principal
+Análisis detallado de cada tipo de factibilidad
+Riesgos identificados y estrategias de mitigación
+Recomendaciones específicas para proceder
+Alternativas evaluadas
+Proyecto Viable
+Se recomienda proceder, posiblemente con ajustes específicos 
+para mitigar riesgos identificados.
+Proyecto Inviable
+No se recomienda proceder debido a obstáculos significativos en 
+una o más dimensiones de factibilidad.
+Ejemplo real: El gobierno de Nueva Zelanda canceló un proyecto de sistema tributario de $100 millones después de que un estudio de factibilidad 
+revelara problemas técnicos insuperables, ahorrando millones adicionales en un sistema destinado al fracaso.
+
+Recolección de Datos en Proyectos de Software
+Una vez determinada la factibilidad, necesitamos comprender con precisión lo que el sistema debe hacer. La recolección de datos es el proceso 
+mediante el cual obtenemos información detallada sobre las necesidades y procesos del cliente.
+Entrevistas
+Conversaciones estructuradas con stakeholders clave
+Encuestas
+Cuestionarios para recopilar datos de muchos usuarios
+Observación
+Análisis del comportamiento de usuarios en su entorno
+Documentación
+Análisis de procesos y sistemas existentes
+Prototipos
+Modelos preliminares para validar conceptos
+La elección del método depende del tipo de proyecto, la cultura organizacional y los recursos disponibles.
+
+Entrevistas a Usuarios
+Las entrevistas son conversaciones estructuradas o semiestructuradas con los 
+stakeholders para obtener información detallada sobre necesidades, 
+expectativas y procesos actuales.
+Tipos de preguntas efectivas:
+Preguntas abiertas:
+"¿Cómo maneja actualmente el proceso de inventario?"
+"¿Qué frustraciones encuentra con el sistema actual?"
+"¿Qué funcionalidades considera imprescindibles?"
+Preguntas cerradas:
+"¿Prefiere una interfaz web o una aplicación móvil?"
+"¿El sistema debe integrarse con SAP?"
+"¿Necesita generar reportes semanales?"
+Caso práctico: Durante el desarrollo de un sistema de 
+gestión hospitalaria en Argentina, las entrevistas a 
+enfermeras revelaron la necesidad de una interfaz 
+simplificada para registros rápidos durante 
+emergencias, un requisito crítico que no aparecía en 
+la documentación formal.
+
+Encuestas y Cuestionarios
+Las encuestas permiten recopilar datos estructurados de un gran número de usuarios de manera eficiente y cuantificable, siendo especialmente 
+útiles cuando necesitamos entender patrones de uso o preferencias generales.
+Ventajas:
+Recopilación de datos de muchos usuarios simultáneamente
+Resultados fácilmente cuantificables y analizables
+Menor sesgo del entrevistador
+Posibilidad de anonimato (respuestas más honestas)
+Herramientas populares:
+Google Forms (gratuito, fácil de implementar)
+SurveyMonkey (análisis avanzado)
+Typeform (experiencia de usuario mejorada)
+Microsoft Forms (integración con Office 365)
+Ejemplo real: Una fintech colombiana utilizó encuestas para evaluar la satisfacción con su sistema de pagos móviles antes de rediseñarlo, 
+descubriendo que el 78% de los usuarios consideraba el proceso de autenticación demasiado complejo, lo que orientó las prioridades del nuevo 
+diseño.
+
+Observación Directa
+La observación directa consiste en analizar cómo los usuarios realizan sus tareas en 
+el entorno real, capturando comportamientos y problemas que los propios usuarios 
+podrían no mencionar porque los consideran "normales".
+Técnicas de observación:
+Pasiva: el observador no interfiere, solo registra lo que ve
+Participante: el observador se integra en el equipo para experimentar el proceso
+Contextual: observación en el entorno natural de trabajo
+Grabación: captura en video para análisis detallado posterior
+Caso exitoso: Un desarrollador observó a 
+recepcionistas de un hotel en Chile lidiar con 
+el sistema de reservas, descubriendo que 
+realizaban 7 pasos redundantes para 
+completar un check-in. El nuevo sistema 
+redujo el proceso a 3 pasos, disminuyendo el 
+tiempo de espera en un 68%.
+La observación revela la brecha entre lo que las personas dicen que hacen y lo que realmente hacen.
+
+Revisión Documental
+La revisión documental implica analizar la documentación existente para comprender procesos formales, políticas y requisitos documentados que 
+el nuevo sistema deberá cumplir o mejorar.
+Documentos clave a revisar:
+Manuales de procedimientos actuales
+Diagramas de flujo de procesos
+Documentación de sistemas existentes
+Formularios y plantillas utilizadas
+Informes y reportes generados
+Políticas corporativas relevantes
+"La documentación muestra lo que debería suceder; la 
+observación muestra lo que realmente sucede."
+Ejemplo práctico: Durante el desarrollo de un sistema para una municipalidad peruana, la revisión de formularios oficiales reveló campos 
+obligatorios por normativa que no habían sido mencionados en ninguna entrevista, evitando un costoso rediseño posterior.
+
+Talleres y Prototipos
+Los talleres y prototipos son técnicas colaborativas que involucran activamente a los usuarios en el diseño del sistema, permitiendo validar 
+conceptos tempranamente y reducir malentendidos.
+Joint Application Design (JAD)
+Sesiones estructuradas donde usuarios y 
+desarrolladores trabajan juntos para 
+definir requisitos. Una empresa de 
+logística en México utilizó JAD para 
+diseñar su sistema de tracking, logrando 
+consenso entre departamentos que 
+anteriormente tenían visiones 
+contrapuestas.
+Design Thinking Workshops
+Talleres centrados en la empatía con el 
+usuario, definición del problema, 
+ideación y prototipos. Un banco en Chile 
+implementó esta metodología para 
+rediseñar su banca móvil, mejorando la 
+satisfacción del cliente en un 47%.
+Prototipos Rápidos
+Modelos preliminares que muestran 
+cómo funcionará el sistema. Una 
+aseguradora argentina creó prototipos de 
+su sistema de cotizaciones que los 
+agentes pudieron probar, identificando 
+problemas de usabilidad antes de la 
+codificación.
+
+Selección de la Herramienta Correcta
+La elección de las técnicas de recolección de datos debe 
+basarse en las características específicas del proyecto, los 
+recursos disponibles y la cultura organizacional del cliente.
+No existe una técnica "perfecta" - la combinación de 
+múltiples métodos proporciona una visión más 
+completa y reduce sesgos individuales.
+Sistemas Grandes y Complejos
+Recomendación: Entrevistas a stakeholders clave + encuestas a 
+usuarios finales + revisión documental exhaustiva
+Ejemplo: Un ERP para una cadena de retail con 200+ tiendas 
+requiere múltiples técnicas para capturar requisitos de todos los 
+departamentos.
+Procesos Críticos
+Recomendación: Observación directa + revisión documental + 
+entrevistas a expertos
+Ejemplo: Un sistema de control para una planta industrial donde 
+los errores pueden tener consecuencias graves.
+Alta Interacción con Usuarios
+Recomendación: Talleres colaborativos + prototipos + pruebas de 
+usabilidad
+Ejemplo: Una aplicación móvil bancaria utilizada por millones de 
+clientes diariamente.
+
+Actividad Práctica: Caso de Estudio
+Una empresa mediana de consultoría con 50 empleados quiere implementar un sistema de gestión de proyectos en línea para reemplazar su actual 
+sistema basado en hojas de cálculo y correos electrónicos.
+Tareas en grupos (3-4 estudiantes):
+1
+Estudio de Factibilidad
+Realizar un mini estudio que analice:
+Factibilidad técnica: ¿Qué infraestructura tiene la empresa? 
+¿Acceso a internet estable?
+Factibilidad económica: Presupuesto aproximado vs. 
+beneficios esperados
+Factibilidad operativa: ¿Los consultores aceptarán cambiar 
+sus métodos actuales?
+2
+Plan de Recolección de Datos
+Seleccionar y justificar dos herramientas para el levantamiento 
+de requisitos:
+¿A quiénes entrevistarían y qué les preguntarían?
+¿Qué documentos analizarían?
+¿Realizarían observación? ¿Dónde y cuándo?
+
+Conclusiones: Bases para el Éxito
+El estudio de factibilidad como 
+filtro
+Actúa como un mecanismo de protección 
+que evita inversiones en proyectos 
+destinados al fracaso, similar a cómo un 
+diagnóstico médico previene tratamientos 
+inadecuados.
+El caso de Knight Capital Group, que perdió 
+$440 millones en 45 minutos por un error de 
+software, demuestra las consecuencias de 
+no evaluar adecuadamente la viabilidad 
+técnica.
+Recolección de datos como 
+cimiento
+Proporciona la información precisa sobre la 
+cual se construirá todo el sistema, similar a 
+los planos detallados de un arquitecto.
+El éxito del sistema de reservas de Airbnb se 
+debe en gran parte a su riguroso proceso de 
+entender las necesidades reales de anfitriones 
+y huéspedes mediante múltiples técnicas de 
+recolección.
+"El 68% de los proyectos de software fallan no por problemas técnicos, sino por una comprensión 
+incompleta de los requisitos." 4 Standish Group
+Un proceso inicial riguroso de factibilidad y recolección de datos no garantiza el éxito, pero su ausencia prácticamente garantiza el fracaso.
