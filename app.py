@@ -3765,24 +3765,33 @@ def render_pantalla_8_ia():
         st.stop()
 
     # 2. INTENTO DE RESUMEN Y CHECKLIST
-    # ia_content es lo que traemos de la base de datos de la IA
-    ia_content = API_IA_INSTANCIA.check_resumen_ia(id_generated)
-
-    if ia_content == "":
-        # Si no hay resumen previo, lo generamos usando el texto extraído (variable 'text')
-        with st.spinner("Generando análisis inicial con IA..."):
-            chat_ia = API_IA_INSTANCIA.generate_ia_resume(text)
-            st.markdown(chat_ia)
-            
-            # Generamos los checkboxes interactivos
-            checkboxes = API_IA_INSTANCIA.generate_checkboxes(chat_ia)
-            create_checkboxes(id_generated, checkboxes)
+    # ✅ CACHED EN SESSION_STATE para no regenerar en cada st.rerun()
+    cache_key = f"chat_ia_{id_generated}"
+    
+    if cache_key not in st.session_state:
+        # Intentamos traer de la BD
+        ia_content = API_IA_INSTANCIA.check_resumen_ia(id_generated)
+        
+        if ia_content == "":
+            # Si no existe, lo generamos UNA SOLA VEZ
+            with st.spinner("Generando análisis inicial con IA..."):
+                chat_ia = API_IA_INSTANCIA.generate_ia_resume(text)
+        else:
+            # Reutilizamos el existente
+            chat_ia = ia_content
+        
+        # ✅ GUARDAR EN SESSION_STATE para evitar regeneraciones
+        st.session_state[cache_key] = chat_ia
     else:
-        # Resumen ya existía: lo reutilizamos sin regenerar
-        chat_ia = ia_content
-        st.markdown(chat_ia)
-        checkboxes = API_IA_INSTANCIA.generate_checkboxes(chat_ia)
-        create_checkboxes(id_generated, checkboxes)
+        # Ya estaba en caché: lo reutilizamos directamente
+        chat_ia = st.session_state[cache_key]
+
+    # Mostrar el resumen
+    st.markdown(chat_ia)
+    
+    # Generamos los checkboxes interactivos
+    checkboxes = API_IA_INSTANCIA.generate_checkboxes(chat_ia)
+    create_checkboxes(id_generated, checkboxes)
 
     # --- 3. CHAT INTERACTIVO SOBRE EL DOCUMENTO ---
     st.markdown("---")
@@ -3800,7 +3809,7 @@ def render_pantalla_8_ia():
 
     # Entrada de nueva pregunta del usuario
     if pregunta := st.chat_input("Escribe tu duda aquí..."):
-        # Añadimos la pregunta al historial y la mostramos
+        # Se agrega la pregunta al historial y la mostramos
         st.session_state.chat_history.append({"role": "user", "content": pregunta})
         with st.chat_message("user"):
             st.markdown(pregunta)
@@ -3808,12 +3817,10 @@ def render_pantalla_8_ia():
         # Generamos la respuesta de la IA
         with st.chat_message("assistant"):
             with st.spinner("Revisando el documento..."):
-                # ✅ Pasamos el RESUMEN YA GENERADO (no se regenera nuevamente)
-                # chat_ia contiene el análisis completo: Resumen + Requisitos + Checklist
                 respuesta = API_IA_INSTANCIA.chat_interactivo(
                     pregunta,
                     st.session_state.chat_history[:-1],
-                    chat_ia  # ← Siempre es el resumen guardado/generado al inicio
+                    chat_ia  
                 )
                 st.markdown(respuesta)
         
