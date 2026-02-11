@@ -3767,23 +3767,21 @@ def render_pantalla_8_ia():
     # 2. INTENTO DE RESUMEN Y CHECKLIST
     # ia_content es lo que traemos de la base de datos de la IA
     ia_content = API_IA_INSTANCIA.check_resumen_ia(id_generated)
-    chat_ia = ia_content
 
     if ia_content == "":
         # Si no hay resumen previo, lo generamos usando el texto extraído (variable 'text')
         with st.spinner("Generando análisis inicial con IA..."):
-            ia_resume = API_IA_INSTANCIA.generate_ia_resume(text)
-            st.markdown(ia_resume)
+            chat_ia = API_IA_INSTANCIA.generate_ia_resume(text)
+            st.markdown(chat_ia)
             
             # Generamos los checkboxes interactivos
-            checkboxes = API_IA_INSTANCIA.generate_checkboxes(ia_resume)
-            chat_ia = ia_resume
+            checkboxes = API_IA_INSTANCIA.generate_checkboxes(chat_ia)
             create_checkboxes(id_generated, checkboxes)
     else:
-        # Si ya existía, mostramos el contenido guardado
-        st.markdown(ia_content)
+        # Resumen ya existía: lo reutilizamos sin regenerar
         chat_ia = ia_content
-        checkboxes = API_IA_INSTANCIA.generate_checkboxes(ia_content)
+        st.markdown(chat_ia)
+        checkboxes = API_IA_INSTANCIA.generate_checkboxes(chat_ia)
         create_checkboxes(id_generated, checkboxes)
 
     # --- 3. CHAT INTERACTIVO SOBRE EL DOCUMENTO ---
@@ -3810,12 +3808,12 @@ def render_pantalla_8_ia():
         # Generamos la respuesta de la IA
         with st.chat_message("assistant"):
             with st.spinner("Revisando el documento..."):
-                # IMPORTANTE: Pasamos 'text' (el OCR/Word) para que la IA sepa qué responder
-#                ia_resume = API_IA_INSTANCIA.generate_ia_resume(text)
+                # ✅ Pasamos el RESUMEN YA GENERADO (no se regenera nuevamente)
+                # chat_ia contiene el análisis completo: Resumen + Requisitos + Checklist
                 respuesta = API_IA_INSTANCIA.chat_interactivo(
                     pregunta,
                     st.session_state.chat_history[:-1],
-                    chat_ia
+                    chat_ia  # ← Siempre es el resumen guardado/generado al inicio
                 )
                 st.markdown(respuesta)
         
