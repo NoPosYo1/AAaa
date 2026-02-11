@@ -3754,9 +3754,6 @@ def render_pantalla_8_ia():
         # Opcional: Mostrar un aviso rápido
         st.toast(f"Cambiando contexto a: {id_generated}", icon="🔄")
 
-    # EXTRAE LA INSTANCIA DE LA SESIÓN (Soluciona el NameError)
-    API_IA_INSTANCIA = st.session_state.get("API_IA")
-
     # 1. RECUPERAR INSTANCIA DE IA
     API_IA_INSTANCIA = st.session_state.get("API_IA")
 
@@ -3765,7 +3762,7 @@ def render_pantalla_8_ia():
         st.stop()
 
     # 2. INTENTO DE RESUMEN Y CHECKLIST
-    # ✅ CACHED EN SESSION_STATE para no regenerar en cada st.rerun()
+    # CACHED EN SESSION_STATE para no regenerar en cada st.rerun()
     cache_key = f"chat_ia_{id_generated}"
     
     if cache_key not in st.session_state:
@@ -3779,11 +3776,10 @@ def render_pantalla_8_ia():
         else:
             # Reutilizamos el existente
             chat_ia = ia_content
-        
-        # ✅ GUARDAR EN SESSION_STATE para evitar regeneraciones
+        # GUARDAR EN SESSION_STATE para evitar regeneraciones
         st.session_state[cache_key] = chat_ia
     else:
-        # Ya estaba en caché: lo reutilizamos directamente
+        # Ya estaba en cache: lo reutilizamos directamente
         chat_ia = st.session_state[cache_key]
 
     # Mostrar el resumen
